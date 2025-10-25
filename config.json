@@ -1,6 +1,12 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "title": "Semibyte 的小站",
+    "subTitle": "写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录。",
+    "avatarUrl": "static/avatar.jpg",
+    "singlePage": [
+        "about"
+    ],
+    "startSite": "10/25/2025",
+    "i18n": "CN",
+    "UTC": 8,
+    "GMEEK_VERSION": "last"
 }
