@@ -1,7 +1,8 @@
 {
     "title": "Semibyte 的小站",
     "subTitle": "写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录。",
-    "avatarUrl": "static/avatar.jpg",
+    "avatarUrl": "https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg",
+    "faviconUrl": "https://raw.githubusercontent.com/Meekdai/meekdai.github.io/e9561543150f996a1a0626334256492d087da4a0/static/favicon.svg",
     "singlePage": [
         "about"
     ],
