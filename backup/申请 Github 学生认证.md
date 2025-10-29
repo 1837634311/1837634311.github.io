@@ -43,7 +43,7 @@
 
 2. 上传在线验证报告，并按照以下步骤操作：
 
-<img width="775" height="1001" alt="Image" src="https://github.com/user-attachments/assets/4318da67-0df6-4940-b076-a728d0d7bdf0" />
+<img width="1744" height="954" alt="Image" src="https://github.com/user-attachments/assets/1048021c-14fc-4549-8b7c-696d8b9d77fa" />
 
 翻译完成后就可以下载下来了。
 
