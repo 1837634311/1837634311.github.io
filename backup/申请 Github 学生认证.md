@@ -4,13 +4,13 @@
 
 首先需要填写个人信息，让 Github 知道我们是个学生。
 
-1. 添加学校邮箱，这是认证的基本。
+1. 在 Setting 的「Email」中添加学校邮箱，这是认证的基本。
 
    <img width="2306" height="641" alt="Image" src="https://github.com/user-attachments/assets/fd99afec-993e-458e-b08f-9a39b58d4b11" />
 
    如果你是用学校邮箱注册的账号，请跳过这一步。
 
-2. 在 Setting 的「Billing and licensing」中找到「Payment information」，填写姓名、地址、地区等信息。
+2. 接着在「Billing and licensing」中找到「Payment information」，填写姓名、地址、地区等信息。
 
    其中，姓名必须要和之后提交的身份证明上的姓名相同。
 
