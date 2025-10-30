@@ -3,11 +3,10 @@
     "subTitle": "写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录。",
     "avatarUrl": "https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg",
     "faviconUrl": "https://raw.githubusercontent.com/Meekdai/meekdai.github.io/e9561543150f996a1a0626334256492d087da4a0/static/favicon.svg",
-    "singlePage": [
-        "about"
-    ],
+    "singlePage": ["about"],
     "startSite": "10/25/2025",
     "i18n": "CN",
     "UTC": 8,
+    "bottomText": "本站内容除特别声明外，均遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> 协议",
     "GMEEK_VERSION": "last"
 }
