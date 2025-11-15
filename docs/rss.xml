@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Fri, 07 Nov 2025 06:23:03 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>今天第一次测 MBTI 人格</title><link>https://1837634311.github.io/post/jin-tian-di-yi-ci-ce-%20MBTI%20-ren-ge.html</link><description>先放结果：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Sat, 15 Nov 2025 09:25:40 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>Pycharm「调试」调试</title><link>https://1837634311.github.io/post/Pycharm%E3%80%8C-diao-shi-%E3%80%8D-diao-shi.html</link><description>今天不知道为什么，Pycharm 的调试不能用了，报错：
+
+```
+OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll already initialized.
+```
+
+网上搜索，可能是 pytorch 和 numpy 冲突了，也可能是 matplotlib 的问题。</description><guid isPermaLink="true">https://1837634311.github.io/post/Pycharm%E3%80%8C-diao-shi-%E3%80%8D-diao-shi.html</guid><pubDate>Sat, 15 Nov 2025 09:25:06 +0000</pubDate></item><item><title>今天第一次测 MBTI 人格</title><link>https://1837634311.github.io/post/jin-tian-di-yi-ci-ce-%20MBTI%20-ren-ge.html</link><description>先放结果：
 
 &lt;img width='1106' height='481' alt='Image' src='https://github.com/user-attachments/assets/af84a84b-bab6-47f2-a94d-56ca2c018d65' /&gt;
 
