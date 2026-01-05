@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Fri, 05 Dec 2025 09:46:48 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>【小问题解决办法】Word 页眉横线去不掉</title><link>https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Word%20-ye-mei-heng-xian-qu-bu-diao.html</link><description>原因：这个横线不是页眉自带的，而是样式。</description><guid isPermaLink="true">https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Word%20-ye-mei-heng-xian-qu-bu-diao.html</guid><pubDate>Fri, 05 Dec 2025 09:46:05 +0000</pubDate></item><item><title>【小问题解决办法】Vscode 中文换行不正常</title><link>https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Vscode%20-zhong-wen-huan-xing-bu-zheng-chang.html</link><description>原因：VsCode [换行算法有问题](https://github.com/subframe7536/maple-font/issues/173#issuecomment-2841538123)，或者是字体本身的 Bug。</description><guid isPermaLink="true">https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Vscode%20-zhong-wen-huan-xing-bu-zheng-chang.html</guid><pubDate>Thu, 04 Dec 2025 07:49:27 +0000</pubDate></item><item><title>读后感 1</title><link>https://1837634311.github.io/post/du-hou-gan-%201.html</link><description>刚才读完了 PiEgg 大佬的 [写在 PicGo 即将 8 周年之际](https://sspai.com/post/104040)，我现在脑海里面只有一个感悟：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Mon, 05 Jan 2026 03:47:27 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>【习概】复习点</title><link>https://1837634311.github.io/post/%E3%80%90-xi-gai-%E3%80%91-fu-xi-dian.html</link><description>### **第六章：推动高质量发展**
+**学习要点：**
+1. **新发展理念的科学内涵和实践要求**
+2. **高质量发展的深刻内涵和重大意义**
+3. **坚持和完善社会主义基本经济制度**
+4. **构建以国内大循环为主体、国内国际双循环相互促进的新发展格局**
+
+**小标题：**
+* **第一节：完整、准确、全面贯彻新发展理念**
+    1. 我国进入新发展阶段
+    2. 贯彻新发展理念是关系我国发展全局的一场深刻变革
+    3. 以新发展理念引领高质量发展
+* **第二节：坚持和完善社会主义基本经济制度**
+    1. 坚持和完善社会主义基本经济制度是实现高质量发展的保障
+    2. 坚持“两个毫不动摇”
+    3. 坚持按劳分配为主体、多种分配方式并存
+    4. 构建高水平社会主义市场经济体制
+* **第三节：加快构建新发展格局**
+    1. 把握未来发展主动权的战略部署
+    2. 以国内大循环为主体、国内国际双循环相互促进
+    3. 大力推动构建新发展格局
+* **第四节：建设现代化经济体系**
+    1. 建设现代化产业体系
+    2. 全面推进乡村振兴
+    3. 促进区域协调发展
+
+其余知识点：
+
+1.  **我国经济发展的历史方位**：我国经济已由**高速增长阶段转向高质量发展阶段**。</description><guid isPermaLink="true">https://1837634311.github.io/post/%E3%80%90-xi-gai-%E3%80%91-fu-xi-dian.html</guid><pubDate>Mon, 05 Jan 2026 03:46:58 +0000</pubDate></item><item><title>【小问题解决办法】Word 页眉横线去不掉</title><link>https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Word%20-ye-mei-heng-xian-qu-bu-diao.html</link><description>原因：这个横线不是页眉自带的，而是样式。</description><guid isPermaLink="true">https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Word%20-ye-mei-heng-xian-qu-bu-diao.html</guid><pubDate>Fri, 05 Dec 2025 09:46:05 +0000</pubDate></item><item><title>【小问题解决办法】Vscode 中文换行不正常</title><link>https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Vscode%20-zhong-wen-huan-xing-bu-zheng-chang.html</link><description>原因：VsCode [换行算法有问题](https://github.com/subframe7536/maple-font/issues/173#issuecomment-2841538123)，或者是字体本身的 Bug。</description><guid isPermaLink="true">https://1837634311.github.io/post/%E3%80%90-xiao-wen-ti-jie-jue-ban-fa-%E3%80%91Vscode%20-zhong-wen-huan-xing-bu-zheng-chang.html</guid><pubDate>Thu, 04 Dec 2025 07:49:27 +0000</pubDate></item><item><title>读后感 1</title><link>https://1837634311.github.io/post/du-hou-gan-%201.html</link><description>刚才读完了 PiEgg 大佬的 [写在 PicGo 即将 8 周年之际](https://sspai.com/post/104040)，我现在脑海里面只有一个感悟：
 
 &gt; 世界那么大，有那么多有趣的事情，有那么多有意义的事情，我为何要在这里或者那里浪费我仅有的一次生命？
 
