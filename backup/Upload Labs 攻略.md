@@ -1329,4 +1329,4 @@ Upload Labs 是一个扩展游戏，所以静态数字通常不应在任何计�
 
 > 本攻略由 GODZILLA 创作，翻译仅供参考。建议配合原版英文攻略使用。
 
-<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
+<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>"}## -->
