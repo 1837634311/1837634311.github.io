@@ -1,5 +1,3 @@
-# Upload Labs 完全攻略 2.2
-
 > 原作者：GODZILLA | 来源：[Full Guide 2.2](https://steamcommunity.com/sharedfiles/filedetails/?id=3624112172)
 >
 > 本攻略涵盖从早期到终局的内容，提供信息补充和布局建议。
