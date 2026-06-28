@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    <meta name='google-site-verification' content='_0-yA4qH6egp1M9ZpSsoa8MvaBCOVjXEePvorMmfmjs' />
+    <link rel="icon" href="https://raw.githubusercontent.com/Meekdai/meekdai.github.io/e9561543150f996a1a0626334256492d087da4a0/static/favicon.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="# Upload Labs 完全攻略 2.2
+
+> 原作者：GODZILLA | 来源：[Full Guide 2.2](https://steamcommunity.com/sharedfiles/filedetails/?id=3624112172)
+>
+> 本攻略涵盖从早期到终局的内容，提供信息补充和布局建议。">
+<meta property="og:title" content="Upload Labs 攻略">
+<meta property="og:description" content="# Upload Labs 完全攻略 2.2
+
+> 原作者：GODZILLA | 来源：[Full Guide 2.2](https://steamcommunity.com/sharedfiles/filedetails/?id=3624112172)
+>
+> 本攻略涵盖从早期到终局的内容，提供信息补充和布局建议。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://1837634311.github.io/post/Upload%20Labs%20-gong-lve.html">
+<meta property="og:image" content="https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg">
+<title>Upload Labs 攻略</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">Upload Labs 攻略</h1>
+<div class="title-right">
+    <a href="https://1837634311.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/1837634311/1837634311.github.io/issues/14" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h1>Upload Labs 完全攻略 2.2</h1>
+<blockquote>
+<p>原作者：GODZILLA | 来源：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3624112172" rel="nofollow">Full Guide 2.2</a></p>
+<p>本攻略涵盖从早期到终局的内容，提供信息补充和布局建议。</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ul>
+<li><a href="#%E5%9F%BA%E7%A1%80%E6%96%87%E4%BB%B6%E4%B8%8E%E4%BF%AE%E6%94%B9%E5%99%A8">基础：文件与修改器</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%A1%AC%E4%BB%B6">基础：硬件</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E6%94%B6%E5%85%A5">基础：收入</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90%E6%AF%94%E7%8E%87%E5%88%A9%E7%94%A8">基础：资源比率利用</a></li>
+<li><a href="#%E7%90%86%E8%A7%A3%E6%AF%94%E7%8E%87%E5%88%A9%E7%94%A8">理解：比率利用</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%A0%94%E7%A9%B6">基础：研究</a></li>
+<li><a href="#%E4%BB%A3%E5%B8%81%E5%95%86%E5%BA%97%E5%8D%87%E7%BA%A7">代币商店升级</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E9%BB%91%E5%AE%A2">基础：黑客</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A0%81">基础：编码</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%8E%82">基础：工厂</a></li>
+<li><a href="#%E7%90%86%E8%A7%A3%E5%B7%A5%E5%8E%82%E6%95%B0%E6%8D%AE">理解：工厂数据</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%94%B5%E5%8A%9B">基础：电力</a></li>
+<li><a href="#%E7%90%86%E8%A7%A3%E7%94%B5%E5%8A%9B%E5%B8%83%E5%B1%80">理解：电力布局</a></li>
+<li><a href="#%E4%B8%AD%E6%9C%9F%E5%88%86%E8%A7%A3%E8%8A%82%E7%82%B9">中期：分解节点</a></li>
+<li><a href="#%E4%B8%AD%E6%9C%9F%E6%94%B6%E5%85%A5%E8%93%9D%E5%9B%BE">中期：收入蓝图</a></li>
+<li><a href="#%E9%87%8F%E5%AD%90%E5%A4%84%E7%90%86%E5%99%A8">量子处理器</a></li>
+<li><a href="#agi-%E6%8F%90%E7%A4%BA%E8%AF%8D">AGI 提示词</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E9%BB%91%E5%AE%A2%E8%93%9D%E5%9B%BE">终局：黑客蓝图</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E7%BC%96%E7%A0%81%E8%93%9D%E5%9B%BE%E4%B8%8E%E8%AF%B4%E6%98%8E">终局：编码蓝图与说明</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E7%A0%94%E7%A9%B6%E8%93%9D%E5%9B%BE%E4%B8%8E%E8%AF%B4%E6%98%8E">终局：研究蓝图与说明</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E6%94%B6%E5%85%A5%E8%93%9D%E5%9B%BE">终局：收入蓝图</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E5%B7%A5%E5%8E%82%E8%93%9D%E5%9B%BE">终局：工厂蓝图</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E7%94%B5%E5%8A%9B%E8%93%9D%E5%9B%BE">终局：电力蓝图</a></li>
+<li><a href="#%E7%BB%88%E5%B1%80%E4%B8%80%E4%BD%93%E5%BC%8F%E8%93%9D%E5%9B%BE">终局：一体式蓝图</a></li>
+</ul>
+<hr>
+<h2>基础：文件与修改器</h2>
+<h3>文件类型</h3>
+<p>价值、大小、研究量递增：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>文件类型</th>
+<th>品质</th>
+<th>价值</th>
+<th>大小</th>
+<th>研究量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文本 (Text)</td>
+<td>1</td>
+<td>10</td>
+<td>100b</td>
+<td>1</td>
+</tr>
+<tr>
+<td>图像 (Image)</td>
+<td>1</td>
+<td>1.6E5</td>
+<td>1E4b</td>
+<td>2</td>
+</tr>
+<tr>
+<td>音频 (Sound)</td>
+<td>1</td>
+<td>2.56E8</td>
+<td>1E6b</td>
+<td>4</td>
+</tr>
+<tr>
+<td>视频 (Video)</td>
+<td>1</td>
+<td>4.1E11</td>
+<td>1E8b</td>
+<td>8</td>
+</tr>
+<tr>
+<td>程序 (Program)</td>
+<td>1</td>
+<td>6.55E14</td>
+<td>1E10b</td>
+<td>16</td>
+</tr>
+<tr>
+<td>游戏 (Game)</td>
+<td>1</td>
+<td>1.05E18</td>
+<td>1E12b</td>
+<td>32</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>相邻类型之间：<strong>价值 1,600x，大小 100x，研究量 2x</strong></p>
+<h3>通过节点可以改变价值、大小、研究量或品质</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>修改器</th>
+<th>价值</th>
+<th>大小</th>
+<th>研究量</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文件扫描器 (Virus Scanner)</td>
+<td>已扫描 (Scanned)</td>
+<td>4x</td>
+<td>—</td>
+<td>感染修改器的 50%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>隔离器 (Quarantine)</td>
+<td>已感染 (Infected)</td>
+<td>1/4x</td>
+<td>—</td>
+<td>—</td>
+<td>需要额外步骤才能获得扫描修改器</td>
+</tr>
+<tr>
+<td>专业杀毒 (Antivirus Pro)</td>
+<td>已扫描 (Scanned)</td>
+<td>4x</td>
+<td>—</td>
+<td>—</td>
+<td>无感染修改器概率。总周期需求 (1C) 比文件扫描器 + 隔离器组合 (1.5C) 少 50%</td>
+</tr>
+<tr>
+<td>校验和验证器 (Checksum Verifier)</td>
+<td>已验证 (Validated)</td>
+<td>4x</td>
+<td>—</td>
+<td>损坏修改器的 50%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>重新下载器 (Re-downloader)</td>
+<td>已损坏 (Corrupted)</td>
+<td>1/10x</td>
+<td>1/5x</td>
+<td>—</td>
+<td>使用下载而非 CPU 时钟，可跳过校验和直接获取验证修改器</td>
+</tr>
+<tr>
+<td>压缩器 (Compressor)</td>
+<td>已压缩 (Compressed)</td>
+<td>0.75x</td>
+<td>—</td>
+<td>—</td>
+<td>尺寸减半。升级后可压缩最多 3x</td>
+</tr>
+<tr>
+<td>增强器 (Enhancer)</td>
+<td>已增强 (Enhanced)</td>
+<td>100%+</td>
+<td>100%+</td>
+<td>100%+</td>
+<td>所有属性 +100%，包括上传、时钟速度，升级后可增强最多 3x</td>
+</tr>
+<tr>
+<td>无损压缩器 (Lossless Compressor)</td>
+<td>压缩 (Compress)</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>允许增强和压缩修改器同时存在。获得 2x 增强效果，但无 2x 尺寸/上传/周期代价</td>
+</tr>
+<tr>
+<td>数据精炼器 (Data Refiner)</td>
+<td>已精炼 (Refined)</td>
+<td>2x</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>预分析器 (Pre-analyzer)</td>
+<td>已预分析 (Pre-analyzed)</td>
+<td>—</td>
+<td>—</td>
+<td>2x</td>
+<td>数据实验室研究时间减半</td>
+</tr>
+<tr>
+<td>学习增强 (Learning-Reinforced)</td>
+<td>学习增强</td>
+<td>—</td>
+<td>—</td>
+<td>2x</td>
+<td>神经元产量翻倍</td>
+</tr>
+<tr>
+<td>解密器 (Decryptor)</td>
+<td>已解密/已加密</td>
+<td>解密：4x / 加密：0x</td>
+<td>—</td>
+<td>—</td>
+<td>不可修改</td>
+</tr>
+<tr>
+<td>木马 (Trojan)</td>
+<td>木马注入器</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>上传时根据文件品质授予感染计算机</td>
+</tr>
+<tr>
+<td>AI</td>
+<td>AI 训练器/生成器</td>
+<td>1,000,000x</td>
+<td>—</td>
+<td>—</td>
+<td>品质降低 10x</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<hr>
+<h2>基础：硬件</h2>
+<h3>网络</h3>
+<p>你需要管理 2 种资源：<strong>下载</strong>和<strong>上传</strong>。</p>
+<p>下载速度决定下载文件的数量，上传速度决定上传销售文件的数量。</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>用途</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>合并器 (Merger)</td>
+<td>合并下载或上传</td>
+<td>整合以便计算和管理</td>
+</tr>
+<tr>
+<td>限制器 (Limiter)</td>
+<td>将输入分成 2 路，基础 10 分配器</td>
+<td>决定速度分配到哪里和分配多少</td>
+</tr>
+<tr>
+<td>交换器 (Exchanger)</td>
+<td>将一种转换为另一种</td>
+<td>遇到瓶颈时用于均衡</td>
+</tr>
+<tr>
+<td>下载管理器 (Download Manager)</td>
+<td>可下载任何文件类型</td>
+<td>更适合蓝图/AI 的一体化方案</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3>CPU</h3>
+<p>CPU 可以说是最重要的硬件，优化时可能优先处理。</p>
+<p>你只有 5 个节点：</p>
+<ul>
+<li><strong>CPU 处理器</strong> (CPU Processor)</li>
+<li><strong>同步器</strong> (Synchronizer)</li>
+<li><strong>线程管理器</strong> (Thread Manager)</li>
+<li><strong>算力出售器</strong> (Processing Seller)</li>
+</ul>
+<p>同步器（Synchronizer）帮助管理所有核心，使你只需处理 1 个输出而非多个。</p>
+<p>从同一连接分出时，输出始终均等分配（无论分成 2、3、5 或 8 路），始终是 1:1，所以我们使用线程管理器（Thread Manager）来优化输出。</p>
+<p>线程管理器（Thread Manager）允许设置到小数点后一位的比例，虽然只显示个位数。</p>
+<h3>GPU</h3>
+<p>GPU 集群在初期用于为主要收入来源提供额外收入。</p>
+<p>挖矿加密货币：Lite、BTC、Eth、Tether 和代币可能永远不会成为主要收入/资源来源，但作为初期收入很好。</p>
+<p>GPU 在升级调度器（Scheduler）和 AI 训练器（AI Trainer）后变得重要。</p>
+<p>调度器（Scheduler）允许你将 GPU 速度切换为 CPU 速度，提供额外余量，特别是在游戏早期阶段。</p>
+<p>AI 训练器（AI Trainer）是 GPU 资源的主要节点。</p>
+<hr>
+<h2>基础：收入</h2>
+<p><strong>这不是逐步指南。</strong> 你选择哪些升级或优先级取决于你自己。这是一个建议的进展路线。建议你尝试看看什么有效以及如何运作。本攻略希望在你的进展中提供一些见解和信息。如果卡住了，查看后面的章节，填补你能理解的部分。</p>
+<h3>起步</h3>
+<p>开始赚取收入/金钱需要 4 样东西：</p>
+<ul>
+<li><strong>网络</strong> (Network) — 允许下载文件</li>
+<li><strong>下载器</strong> (Downloader) — 使用网络生成文件</li>
+<li><strong>上传器</strong> (Uploader) — 使用网络上传和出售文件</li>
+<li><strong>收集器</strong> (Collector) — 放入你的库存供使用</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9d28db06305a89a4d615a34a35cb80f64bacef1c74ad11e457e95b99a5efc2d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343338313336363434373935343133383531332f363636343744443732413836443737363037313446374432374236453544443734353037303546372f"><img src="https://camo.githubusercontent.com/9d28db06305a89a4d615a34a35cb80f64bacef1c74ad11e457e95b99a5efc2d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343338313336363434373935343133383531332f363636343744443732413836443737363037313446374432374236453544443734353037303546372f" alt="起步布局" data-canonical-src="https://images.steamusercontent.com/ugc/14381366447954138513/66647DD72A86D7760714F7D27B6E5DD7450705F7/" style="max-width: 100%;"></a></p>
+<p>要进一步扩展收入，你需要解锁 CPU。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/296d332511649584b35bb2a2bc682a9ac4441a7cc4c758f36ed2a61a9c838c26/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363432393531343138303837363930333232382f444335304244414133373943333337363731444243343130323744413744463031373742364132372f"><img src="https://camo.githubusercontent.com/296d332511649584b35bb2a2bc682a9ac4441a7cc4c758f36ed2a61a9c838c26/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363432393531343138303837363930333232382f444335304244414133373943333337363731444243343130323744413744463031373742364132372f" alt="CPU 解锁" data-canonical-src="https://images.steamusercontent.com/ugc/16429514180876903228/DC50BDAA379C337671DBC41027DA7DF0177B6A27/" style="max-width: 100%;"></a></p>
+<p>这允许使用文件扫描器（Virus Scanner）和隔离器（Quarantine）。</p>
+<p>在这里我们首次看到时钟周期（Clock Cycle）。文件扫描器（Virus Scanner）和隔离器（Quarantine）都显示每个文件需要 50C。文件扫描器扫描文件，如果未发现感染则继续下一步，但如果发现感染则路由到隔离器。50% 的文件会被发现感染。</p>
+<p>这意味着虽然隔离器（Quarantine）每个文件需要 50C，但它只处理 50% 的总文件，所以平均使用 25C。</p>
+<p>专业杀毒（Antivirus Pro）可以解锁以方便使用，同时减少总 CPU 周期（不是特别重要，因为你之后会有种子作为替代）。</p>
+<h3>首次研究升级：校验和与重建</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/bdc232de251d81e3616a4ab7d4fa88811d3ee521998911bd809ce15730a971d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313732343335393536373237353138303931342f394539384433313843323944413335433230343442333339454344463434354334323445394436382f"><img src="https://camo.githubusercontent.com/bdc232de251d81e3616a4ab7d4fa88811d3ee521998911bd809ce15730a971d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313732343335393536373237353138303931342f394539384433313843323944413335433230343442333339454344463434354334323445394436382f" alt="首次研究升级" data-canonical-src="https://images.steamusercontent.com/ugc/11724359567275180914/9E98D318C29DA35C2044B339ECDF445C424E9D68/" style="max-width: 100%;"></a></p>
+<p>首批 CPU 研究升级之一是：校验和验证器（Checksum Verifier）和文件重建，允许解锁第一个组合修改器。</p>
+<p>随着更多 CPU 节点解锁，你可以添加和改善收入。有些节点必须在其他之前，有些更适合放在特定位置。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/707c963348f37b3ac05c0291622f606a0fafde55da9b6a1061d21daf64a2af87/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393438393337333134383937393334343432362f443136413139304444444241374330383346303242463930324433413932343143314530354136322f"><img src="https://camo.githubusercontent.com/707c963348f37b3ac05c0291622f606a0fafde55da9b6a1061d21daf64a2af87/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393438393337333134383937393334343432362f443136413139304444444241374330383346303242463930324433413932343143314530354136322f" alt="收入扩展" data-canonical-src="https://images.steamusercontent.com/ugc/9489373148979344426/D16A190DDDBA7C083F02BF902D3A9241C1E05A62/" style="max-width: 100%;"></a></p>
+<p>或者，你也可以出售多余的 CPU 处理能力以获得额外收入。</p>
+<h3>压缩</h3>
+<p>我在这里使用压缩器（Compressor），但增强器（Enhancer）也可以。两者都需要正确的比率设置才能最优运行。如果在任何时刻你不理解我指的是什么，或者这些数字从哪里来，请查看"基础：比率利用"之后的章节。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d9dea24800359f9b30b30d92c27466102c22190343bffd55012703bd4e037ea9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333738343932373737393931343938343635342f443131424343363439364231304246443136393330384441383744444435424344354632343736352f"><img src="https://camo.githubusercontent.com/d9dea24800359f9b30b30d92c27466102c22190343bffd55012703bd4e037ea9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333738343932373737393931343938343635342f443131424343363439364231304246443136393330384441383744444435424344354632343736352f" alt="压缩 1x" data-canonical-src="https://images.steamusercontent.com/ugc/13784927779914984654/D11BCC6496B10BFD169308DA87DDD5BCD5F24765/" style="max-width: 100%;"></a></p>
+<p>1x 压缩将下一个节点的 CPU 从 50 降低到 38（虽然显示 38，但实际应为 37.5C），每次压缩将文件大小减少 25%。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/49e43532c80a18150c3e2b48325f147c4edc07565c66f318fb98bd159a2b12a1/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303330383039303232383333373738373134342f364133393530443845303431463244413730364531343432433433323533453942324332413644382f"><img src="https://camo.githubusercontent.com/49e43532c80a18150c3e2b48325f147c4edc07565c66f318fb98bd159a2b12a1/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303330383039303232383333373738373134342f364133393530443845303431463244413730364531343432433433323533453942324332413644382f" alt="压缩 3x" data-canonical-src="https://images.steamusercontent.com/ugc/10308090228337787144/6A3950D8E041F2DA706E1442C43253E9B2C2A6D8/" style="max-width: 100%;"></a></p>
+<p>3x 压缩将其降低到 13C。</p>
+<ul>
+<li><strong>压缩</strong>仅减少尺寸 25%，最多 75%（3x）</li>
+<li><strong>增强</strong>增加所有属性 100%+，最多 400%（3x）</li>
+</ul>
+<h3>下一步升级：网络合并与交换</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d701ce72760c77222b3f2028ef4ecfc77e7702f8a483c0873b8fce7231f2caeb/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333930323538343332383134363635333332382f333846303645374446363934364142444441414542444141373439433943453842313030383339342f"><img src="https://camo.githubusercontent.com/d701ce72760c77222b3f2028ef4ecfc77e7702f8a483c0873b8fce7231f2caeb/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333930323538343332383134363635333332382f333846303645374446363934364142444441414542444141373439433943453842313030383339342f" alt="网络合并" data-canonical-src="https://images.steamusercontent.com/ugc/13902584328146653328/38F06E7DF6946ABDDAAEBDAA749C9CE8B1008394/" style="max-width: 100%;"></a></p>
+<p>网络合并和交换在压缩器（Compressor）和增强器（Enhancer）时变得重要。</p>
+<p>如果你将尺寸从 100% 压缩到 25%，这意味着你浪费了 75% 的上传速度。在上图中，我们将上传按 1:1（50%:50%）分配，并将其中 50% 重定向到下载，所以总网络将是 150% 下载，50% 上传。如果你发现了我的错误，恭喜！150:50 实际上不是最优分配，最优分配应该是 4:1 或 160:40。</p>
+<p>同样，如果你在增强，你以 100% 速度下载，但需要 400% 上传来匹配更大的尺寸！所以你需要重新调整下载：上传比为 1:4 或 40:160。</p>
+<p>你需要根据正在做的事情调整下载和上传。</p>
+<ul>
+<li>合并器（Merger）只能合并相同类型的链接（仅下载或仅上传）</li>
+<li>交换器（Exchanger）允许你从下载转换到上传，反之亦然</li>
+<li>限制器（Limiter）用于微调该操作</li>
+</ul>
+<hr>
+<h2>基础：资源比率利用</h2>
+<p>Upload Labs 为用户提供了多种选项来分割任何给定资源，以提高效率并缓解低效和瓶颈。</p>
+<h3>分割方式</h3>
+<p>有两种方式分割资源：原生方式或使用管理器/限制器（Limiter）。</p>
+<h4>原生分割</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a83ae78e10e6e195ecf78954fad9e9b92b8c9f358e979f118d46f9d765723501/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363133393135323337393439303430353933302f333646323546423546433245323343323433323542343636413643394536444433424230434130372f"><img src="https://camo.githubusercontent.com/a83ae78e10e6e195ecf78954fad9e9b92b8c9f358e979f118d46f9d765723501/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363133393135323337393439303430353933302f333646323546423546433245323343323433323542343636413643394536444433424230434130372f" alt="原生分割" data-canonical-src="https://images.steamusercontent.com/ugc/16139152379490405930/36F25FB5FC2E23C24325B466A6C9E6DD3BB0CA07/" style="max-width: 100%;"></a></p>
+<p>出站连接没有限制，但始终均等分割。（例如：2 个连接 50:50，4 个连接 25:25:25:25）</p>
+<h4>分配器（管理器/限制器）</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ff6ae34122c625c1c3bc2a15d07e7141d514c1401a56702dcb5623aacb305561/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313431303338313035313636333238303237302f454546353641373036423434444446434335373333444439334639423745344232324135443442422f"><img src="https://camo.githubusercontent.com/ff6ae34122c625c1c3bc2a15d07e7141d514c1401a56702dcb5623aacb305561/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313431303338313035313636333238303237302f454546353641373036423434444446434335373333444439334639423745344232324135443442422f" alt="分配器" data-canonical-src="https://images.steamusercontent.com/ugc/11410381051663280270/EEF56A706B44DDFCC5733DD93F9B7E4B22A5D4BB/" style="max-width: 100%;"></a></p>
+<p>分配器（Limiter）给你更多控制权，允许 1-100:1-100 的任意分配，实现线程控制的精细调节。</p>
+<h3>资源需求</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0ed1bfbd0b2e93085b293033d123f7f0cd620e10bda44a01ae66d911420a2e57/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303136343533373730333930353937303733392f373139463641333232434545413043353546314142433332313845354443373339424544443536322f"><img src="https://camo.githubusercontent.com/0ed1bfbd0b2e93085b293033d123f7f0cd620e10bda44a01ae66d911420a2e57/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303136343533373730333930353937303733392f373139463641333232434545413043353546314142433332313845354443373339424544443536322f" alt="资源需求" data-canonical-src="https://images.steamusercontent.com/ugc/10164537703905970739/719F6A322CEEA0C55F1ABC3218E5DC739BEDD562/" style="max-width: 100%;"></a></p>
+<p>一个节点可以分解为几个基本细节：</p>
+<ul>
+<li><strong>绿色</strong>：当前分配的资源</li>
+<li><strong>黄色</strong>：每秒输入的文件数量</li>
+<li><strong>紫色</strong>：处理速度（如果需要更多文件，这个数字会更低）</li>
+<li><strong>红色</strong>：完成任务所需的资源周期</li>
+</ul>
+<p>在示例中，我们可以看到每秒输入 1.27 个文本文件。分配了 63.94Hz CPU。需要 50C CPU 周期。处理速度 1.28/s。</p>
+<p>要确定我们需要多少 CPU，只需将 1.27 * 50C = 63.5Hz。你也可以查看处理速度，看它是否匹配或高于输入文件。你始终希望处理速度匹配或高于输入速度，以避免引入瓶颈。</p>
+<p>如果你创建了瓶颈，之后的所有节点都无法输出大于此的数量。</p>
+<p>瓶颈的示例：</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c48e15ed3448912ab45b12380afad8def2032d9539a46f3bd0b943682c99aee6/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343935393535303638383234373938383131302f354245464630464344413833394446344532463638353143383333314137443030323035434435372f"><img src="https://camo.githubusercontent.com/c48e15ed3448912ab45b12380afad8def2032d9539a46f3bd0b943682c99aee6/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343935393535303638383234373938383131302f354245464630464344413833394446344532463638353143383333314137443030323035434435372f" alt="瓶颈示例" data-canonical-src="https://images.steamusercontent.com/ugc/14959550688247988110/5BEFF0FCDA839DF4E2F6851C8331A7D00205CD57/" style="max-width: 100%;"></a></p>
+<p>第一行显示两个节点都有足够的 CPU。第二行显示尽管下载了相同数量的文本文件，底行的混淆器没有分配足够的 CPU，后面的节点有足够的 CPU（如处理速度所示），但输出仍低于其容量。</p>
+<p>你不必总是查看处理速度，因为你使用的是你拥有的资源。第一个节点不够并不代表解决方案是从另一个节点取。目标是在所有节点之间保持相同的比例处理速度以防止瓶颈。</p>
+<p>如果你查看处理速度，请注意如果一个节点需要多个文件，处理速度将被该数字除。如果你有 100 输入，且每个输出需要 2 个文件，你目标的处理速度是 50。</p>
+<p>我个人只看所需周期，并使用比率来平均分配资源。如果一个节点需要 100C，另一个需要 50C，将 CPU 按 2:1 分配。</p>
+<h3>确定比率</h3>
+<p>Upload Labs 是一个扩展游戏，所以静态数字通常不应在任何计算中考虑。为了减少随着游戏进程需要不断更新计算或数字的需求，使用比率。</p>
+<p>你有 100% 的下载、上传、CPU、GPU。按百分比分配这些资源。但使用 100 的百分比可能很麻烦。为每个节点使用多个小数位很繁琐（而且个人认为是不良实践，因为游戏目前不显示任何小数）。</p>
+<p>所以，使用比率。分子 / 分母 或 a:b</p>
+<p>示例设置：</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ea5dde88a6d771e91adfd40e5d5e660e975ab62051664d10e41850b9c361f334/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393238383234393936363235343236373537372f323243414631433741363638413042443438443730394137443336313842313731333042413234342f"><img src="https://camo.githubusercontent.com/ea5dde88a6d771e91adfd40e5d5e660e975ab62051664d10e41850b9c361f334/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393238383234393936363235343236373537372f323243414631433741363638413042443438443730394137443336313842313731333042413234342f" alt="比率设置" data-canonical-src="https://images.steamusercontent.com/ugc/9288249966254267577/22CAF1C7A668A0BD48D709A7D3618B17130BA244/" style="max-width: 100%;"></a></p>
+<p>实际数字并不是 2 个节点 100C 和 1 个节点 50C，也不是 100C:100C，而是百分比。2:1 将 CPU 周期速度分为 66.67% 给上节点连接，33.33% 给下节点。时钟周期是否实际输出 200C 无关紧要，因为这些分割的目标是<strong>所有连接的节点以各自速度要求相同的速度运行</strong>，一个比另一个慢或快都会引入瓶颈。</p>
+<hr>
+<h2>理解：比率利用</h2>
+<h3>网络与种子</h3>
+<p>仅下载和上传使数学变得相当简单。你需要 3 个细节：下载尺寸、数量是否变化（复制器（Duplicator））、上传尺寸。</p>
+<p>如果你不使用增强器（Enhancer）、压缩器（Compressor）、复制器（Duplicator）。完美！全部相等，所以下载速度 = 上传速度。</p>
+<p>如果你使用压缩器（Compressor），那么上传的尺寸小于下载的，所以你可以分配更多给下载。增强器（Enhancer）反之亦然，复制器（Duplicator）同理。</p>
+<p>这种方法在进入 AI 时会失效，但到那时你应该已经有服务器了。</p>
+<h3>种子</h3>
+<p>种子下载速度计算类似于 CPU。</p>
+<p>种子浏览器（Torrent Browser）每个文本需要 10。</p>
+<p>种子下载器（Torrent Downloader）需要 500。</p>
+<ul>
+<li>如果你有 4 个浏览器，那是 40 和下载器的 500。40:500 或 4:50 或 2:25</li>
+<li>如果你有 3 个浏览器，那是 30 和下载器的 500。30:500 或 3:50</li>
+<li>如果你有 4 个浏览器，那是 40 和 2 个下载器的 1000。40:1000 或 4:100 或 1:25</li>
+</ul>
+<p>虽然我使用文本数字作为示例，但所有格式的比例相同，数字更大但比例相同。</p>
+<h3>服务器</h3>
+<p>一旦你到达服务器，你可能已经解锁了 AI。这使得计算所需上传量有点困难。建议将多余网络倾倒入服务器。使用下载直到 CPU 瓶颈。</p>
+<p>在进入计算之前，这里是一些基础信息：</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/98eebd938cab50f2ff1e2bd767de7d2aec7e30e284c6eb135f4bd77226cf6e36/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393434393631323938343630383735343439382f374346453944433235434544453935333636383033304634464333373832453734373845343736432f"><img src="https://camo.githubusercontent.com/98eebd938cab50f2ff1e2bd767de7d2aec7e30e284c6eb135f4bd77226cf6e36/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393434393631323938343630383735343439382f374346453944433235434544453935333636383033304634464333373832453734373845343736432f" alt="服务器数据" data-canonical-src="https://images.steamusercontent.com/ugc/9449612984608754498/7CFE9DC25CEDE953668030F4FC3782E7478E476C/" style="max-width: 100%;"></a></p>
+<p>测试数据：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>格式</th>
+<th>数量</th>
+<th>服务器</th>
+<th>数量/服务器</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文本</td>
+<td>2.00E75</td>
+<td>1.00E22</td>
+<td>2.00E53</td>
+</tr>
+<tr>
+<td>图像</td>
+<td>2.00E73</td>
+<td>1.00E20</td>
+<td>2.00E53</td>
+</tr>
+<tr>
+<td>音频</td>
+<td>2.00E71</td>
+<td>1.00E18</td>
+<td>2.00E53</td>
+</tr>
+<tr>
+<td>视频</td>
+<td>2.00E69</td>
+<td>1.00E16</td>
+<td>2.00E53</td>
+</tr>
+<tr>
+<td>程序</td>
+<td>2.00E67</td>
+<td>1.00E14</td>
+<td>2.00E53</td>
+</tr>
+<tr>
+<td>游戏</td>
+<td>2.00E65</td>
+<td>1.00E12</td>
+<td>2.00E53</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>我只展示了游戏的压缩器，但所有其他压缩器都配置为从游戏开始每种格式恰好高 1E2。然后，下一列显示服务器节点上显示的每种格式需要多少个压缩文件。如果我们输出压缩文件并除以所需数量，每种格式得到 2.00E53。从那里我们得到获取最大收入所需的速度。但这在上传方面意味着什么？在服务器节点中，你可以看到上传所需数量的所需上传速度是 3.00E25。如果我们乘以 2.00E53 * 3.00E25 = 5.25E78bps。</p>
+<p>5.25E78 将是获取 100% 输出文件上传的最低所需上传速度。</p>
+<p>一旦上传比率设置好，它应该跟上 AI 文件增长的速度，但最好留一些余量。</p>
+<h3>工厂</h3>
+<p>工厂或机器节点有基础工作速度。在最大等级节点时，大多数节点以 1.76e12 的基础速度工作，所以如果我们将其除以装配器节点，你会得到 1。某些节点会给出 2 或更大的数字（参见理解：工厂数据）。简化基础允许更好地可视化我们处理的数字。你不需要这样做，因为游戏内没有方法这样做。</p>
+<p>基础速度很重要，因为它告诉我们用于输入和输出的倍率。例如：如果一个机器节点只接受 1 个输入，但基础速度是输入节点的两倍，你需要 2 个输入节点。超导铸造厂是一个很好的例子。工作速度是 1.76e12，但下一个节点是光刻机，基础速度是 3.52e12，简化后是 2。所以为了保持光刻机 100% 生产时间，你需要每 1 个光刻机配 2 个超导铸造厂。</p>
+<p>另一个例子是 PCV 焊接，基础速度是 7.04e12 或简化为 4，需要 16 根线。线材轧机的基础速度是 2.81e13 或简化为 16。</p>
+<hr>
+<h2>基础：研究</h2>
+<h3>基本设置</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7fc15f9c7d793a88f3b4682c4ed2131aa8993241b471bd1ea24bff8daef4d913/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323930333738323236303339333830323834382f423843433742334535333433434246353744414333333545333546373039363041443333423042352f"><img src="https://camo.githubusercontent.com/7fc15f9c7d793a88f3b4682c4ed2131aa8993241b471bd1ea24bff8daef4d913/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323930333738323236303339333830323834382f423843433742334535333433434246353744414333333545333546373039363041443333423042352f" alt="研究设置" data-canonical-src="https://images.steamusercontent.com/ugc/12903782260393802848/B8CC7B3E5343CBF57DAC335E35F70960AD33B0B5/" style="max-width: 100%;"></a></p>
+<p>基本层面的研究只需要 4 样东西：</p>
+<ul>
+<li>从网络下载</li>
+<li>文件下载器（文本、图像、音频等...）</li>
+<li>数据实验室（Data Lab）</li>
+<li>收集器（Collector） / 自动收集器（Auto Collector）</li>
+</ul>
+<h3>修改器与节点</h3>
+<p>研究只受益于 2 种文件属性：<strong>研究量</strong>、<strong>品质</strong></p>
+<p>相关修改器：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>处理过程</th>
+<th>修改器类型</th>
+<th>修改器倍率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>增强 (Enhanced)</td>
+<td>尺寸与品质</td>
+<td>2x/6x(尺寸) +1/+3(品质) (最多 3x)</td>
+</tr>
+<tr>
+<td>精炼 (Refined)</td>
+<td>研究产量</td>
+<td>2x</td>
+</tr>
+<tr>
+<td>分析 (Analyzed)</td>
+<td>研究速度</td>
+<td>2x</td>
+</tr>
+<tr>
+<td>解密 (Decrypted)</td>
+<td>品质</td>
+<td>4x</td>
+</tr>
+<tr>
+<td>AI</td>
+<td>降低品质</td>
+<td>-10x</td>
+</tr>
+<tr>
+<td>损坏 (Corrupted)</td>
+<td>降低品质</td>
+<td>-10x</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p><strong>注意：增强是加法修改器，但与解密等乘法修改器缩放。（即基础品质 1 + 3 来自 3x 增强 配合 解密 x4 = 16 品质）</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6a39a9e28a8d6e1b514031191803d625f0ab66c5377e162c211c7c0af4dfb4e6/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323737353834323337333034393638393231362f464533304237364245323635363841463136314542374332463937463035414145464433463237362f"><img src="https://camo.githubusercontent.com/6a39a9e28a8d6e1b514031191803d625f0ab66c5377e162c211c7c0af4dfb4e6/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323737353834323337333034393638393231362f464533304237364245323635363841463136314542374332463937463035414145464433463237362f" alt="研究节点" data-canonical-src="https://images.steamusercontent.com/ugc/12775842373049689216/FE30B76BE26568AF161EB7C2F97F05AAEFD3F276/" style="max-width: 100%;"></a></p>
+<p><strong>推荐节点：</strong></p>
+<ul>
+<li>预分析器（Pre-analyzer）/ 种子实验室（TorrentLabs）</li>
+<li>数据精炼器（Data Refiner）</li>
+<li>加密种子（Encrypted Torrent）+ 解密器（Decryptor）</li>
+<li>增强器（Enhancer）（最多 3x）/ 增强器 MAX</li>
+</ul>
+<p><strong>可选节点：</strong>（可能消耗更多 DL/CPU 但收益有限）</p>
+<ul>
+<li>压缩种子（Zipped Torrent）+ 解压缩器（Unzipper）</li>
+<li>复制器（Duplicator）</li>
+<li>压印器（Imprint）</li>
+<li>标识器（Identifier）</li>
+</ul>
+<h3>数据实验室</h3>
+<p>数据实验室（Data Lab）根据等级接受静态数量的文件。最大化品质和研究量比数量更重要。</p>
+<p>每个数据实验室（Data Lab）等级将接受的文件数量增加 2x。这也可以通过分析文件增加。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/abf6adeddb743731c1b927fe91dfc20df5b7b5ca79fdbf9097f4198a03931c87/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373836363033393733323438333034363331342f423139313937463239383839313737414330344639353631313134334538363239443131463535462f"><img src="https://camo.githubusercontent.com/abf6adeddb743731c1b927fe91dfc20df5b7b5ca79fdbf9097f4198a03931c87/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373836363033393733323438333034363331342f423139313937463239383839313737414330344639353631313134334538363239443131463535462f" alt="数据实验室" data-canonical-src="https://images.steamusercontent.com/ugc/17866039732483046314/B19197F29889177AC04F95611143E8629D11F55F/" style="max-width: 100%;"></a></p>
+<p>这意味着 2 个 10 级数据实验室 = 1 个 11 级数据实验室。在考虑添加更多数据实验室时需要考虑这一点。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d2e543b4d5d951ad5f83dd1794b863f1a58e4becafda059738f5014f17b40f2a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313434373138303036363831343136333532372f324241433534444346333930394642444631323436384233373338343039414546393842444631312f"><img src="https://camo.githubusercontent.com/d2e543b4d5d951ad5f83dd1794b863f1a58e4becafda059738f5014f17b40f2a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313434373138303036363831343136333532372f324241433534444346333930394642444631323436384233373338343039414546393842444631312f" alt="数据实验室 2" data-canonical-src="https://images.steamusercontent.com/ugc/11447180066814163527/2BAC54DCF3909FBDF12468B3738409AEF98BDF11/" style="max-width: 100%;"></a></p>
+<hr>
+<h2>代币商店升级</h2>
+<p>游戏中通过几种方式获得代币：</p>
+<ol>
+<li>在请求上传器上完成请求</li>
+<li>点击弹出的金币</li>
+<li>在黑客入侵中攻破银行</li>
+<li>DLC</li>
+</ol>
+<p>早期大部分金币来自请求上传器（Request Uploader）或点击弹出金币。银行会提供相当数量，但很快减少。长期来看你只能点击金币或购买 DLC。</p>
+<p>我个人认为不需要解锁每个升级来完成这个游戏。虽然这取决于你对"完成游戏"的定义。对我而言，就是获得所有特殊请求、解锁门户和研究中的一切，并玩到游戏当前内容的极限。</p>
+<p>以下是我对哪些是<strong>必需</strong>、<strong>可选</strong>、<strong>生活质量</strong>、<strong>不推荐</strong>和<strong>无用</strong>升级的建议。</p>
+<p>如果你不知道从哪里开始或关注什么，取决于你的游戏风格，但通常我会关注必需和可选。</p>
+<p><strong>免责声明：</strong> 我没有实际运行任何数字来制作最优列表，这只是我的想法。</p>
+<h3>必需</h3>
+<ul>
+<li><strong>自动收集器 (Auto Collector)</strong> — 手动收集直到服务器会很辛苦</li>
+<li><strong>线程管理器 (Thread Manager)</strong> — 没有它几乎不可能创建高效的布局</li>
+<li><strong>空间 (Space)</strong> — 你当前的 W 越高，这变得越重要。19(2216) 和 20(3325) 之间差距约 1000x，随着等级升高差距只会更大</li>
+</ul>
+<p>这就是必需的全部。这 3 个节点/升级相比其他升级带来巨大的差异。</p>
+<h3>可选</h3>
+<ul>
+<li><strong>网络限制器 (Network Limiter)</strong> — 类似线程管理器，但仅用于网络，技术上只用合并器和交换器也能凑合，但需要更多工作，可选因为节省了大量节点</li>
+<li><strong>运气 (Luck)</strong> — 增加金币弹出的代币 — 取决于游戏风格，如果你在游戏中不活跃这基本没用，活跃时对进展很有帮助</li>
+<li><strong>系统升级 (System Upgrade)</strong> — 20% 乘法系统提升，4 次升级约 207%</li>
+<li><strong>黑客专精 (Hack Specialization)</strong> — 同系统升级</li>
+<li><strong>编码专精 (Coding Specialization)</strong> — 同系统升级</li>
+<li><strong>入侵技能 (Breach Skill)</strong> — 配合链式注入和分裂攻击，大幅推动黑客进展</li>
+<li><strong>散热器 (Heat Sink)</strong> — 非常想放在这里，但列表中有更好的选择</li>
+</ul>
+<p>可选升级提供性能上的大差异，只是没有必需列表那么显著。系统、黑客、编码升级需要全部 4 次升级，需要大量代币分配才能真正有效。</p>
+<h3>生活质量</h3>
+<ul>
+<li><strong>节点分组 (Node Group)</strong> — 我个人经常使用，允许快速布局更改以提高模块性</li>
+<li><strong>压缩器 MAX (Compressor Max)</strong> — 一个节点中 3x 压缩器！如果你运行所有文件类型这很好，但通常不如其他两个好，因为个人偏好增强器 + 无损用于终局收入</li>
+<li><strong>增强器 MAX (Enhancer Max)</strong> — 一个节点中 3x 增强器！同压缩器 MAX，但用途更多，研究、终局，肯定是生活质量升级</li>
+<li><strong>无损压缩器 MAX (Lossless Compressor Max)</strong> — 你懂的</li>
+<li><strong>IDE</strong> — 太好的生活质量了 — 不仅节省节点，还节省时间，找 var 节点很痛苦</li>
+<li><strong>优化代码 MAX (Optimize Code Max)</strong> — 看起来更整洁。代码很快会变成一张网</li>
+<li><strong>网络对偶 (Network Duality)</strong> — 第一次升级很棒，因为约 33% 网络增加，但第二次解锁降到 25%。考虑到只是网络且总提升约 66%，低于系统升级</li>
+<li><strong>时间缓存 + 空闲催化剂 (Time Cache + Idle Catalyst)</strong> — 放在一起，因为功能类似 — 提供更大的离线收益</li>
+</ul>
+<p>生活质量本质上就是字面意思，不一定能以任何有意义的方式提升性能，但拥有了会很好。</p>
+<h3>不推荐</h3>
+<p>应该提前说明，这个列表包含的节点我相信你在进展中会很快淘汰，或者只提供非常有限的收益。</p>
+<ul>
+<li><strong>下载管理器 (Download Manager)</strong> — 一旦有了种子就没用了</li>
+<li><strong>专业杀毒 (Antivirus Pro)</strong> — 一旦有了种子就没用了（除非你不用这个种子）</li>
+<li><strong>AI 工作站 (AI Station)</strong> — 不错，但只节省 5 个节点，非常低优先级</li>
+<li><strong>挖矿 Tether (Mine Tether)</strong> — 一旦有了调度器或 AI，加密收益微乎其微</li>
+<li><strong>自动加密出售 (Auto Crypto Seller)</strong> — 同挖矿 Tether，很快过时</li>
+<li><strong>吝啬鬼 (Cheapskate)</strong> — 2 次升级获得 10% 成本折扣，收益小</li>
+</ul>
+<h3>无用</h3>
+<ul>
+<li><strong>广泛研究 (Extensive Research)</strong> — 我认为真的是无用升级。每个数据实验室等级是 2x，所以 2 个 10 级等于 1 个 11 级...再加上你已经有最多 11 个数据实验室！最多获得 27% 研究增加，而且仅在所有数据实验室同等级时。</li>
+</ul>
+<hr>
+<h2>基础：黑客</h2>
+<p>黑客是游戏的另一个组件，你使用黑客接口通过入侵匿名组织、公司、政府或银行来访问。</p>
+<ul>
+<li>入侵<strong>匿名组织</strong>奖励黑客经验</li>
+<li>入侵<strong>公司</strong>奖励公司数据</li>
+<li>入侵<strong>政府</strong>奖励政府数据</li>
+<li>入侵<strong>银行</strong>奖励代币</li>
+</ul>
+<p>公司数据和政府数据需要通过（自动）收集器（Collector）收集。</p>
+<p>公司和政府是收入和研究的重要提升，应该在整个运行过程中牢记。</p>
+<p>黑客中的攻击在窗口中工作。你开始有 6 秒时间击败关卡，但窗口可以通过潜行攻击（Sneak Attack）升级延长到最多 11 秒。潜行攻击的重要性将在本节后面讨论。</p>
+<p>在黑客中有 2 种主要攻击方法，加上入侵技能（Breach Skill）来增强或修改你的主要攻击：</p>
+<ol>
+<li><strong>发动载荷 (Launch Payload)</strong> — 标准攻击，速度 * 伤害 = 总伤害</li>
+<li><strong>构建感染 (Build Infection)</strong> — DoT 攻击，每次后续攻击增加每跳伤害</li>
+</ol>
+<p>我个人没有太多尝试载荷，所以本攻略主要关注感染。没有特别的原因，只是在没有证据的情况下，感染的叠加属性似乎更好。</p>
+<p>通过两种攻击，你可以通过几种升级改善攻击：</p>
+<ul>
+<li>载荷伤害 (Payload Damage)</li>
+<li>入侵速度 (Breach Speed)</li>
+<li>暴击几率 (Critical Chance)</li>
+<li>暴击倍率 (Critical Multiplier)</li>
+<li>感染伤害 (Infection Damage)</li>
+<li>感染专家 (Infection Specialist)</li>
+<li>潜行攻击 (Sneak Attack)</li>
+<li>破坏 (Spoil)</li>
+</ul>
+<p>无论什么构建，<strong>破坏和潜行攻击</strong>都是必需的。收益远超所有其他升级。</p>
+<p>如果你选择感染，感染专家在我看来更重要。</p>
+<p><strong>载荷：</strong> 破坏 &gt; 潜行攻击<br>
+<strong>感染：</strong> 感染专家 &gt; 破坏 &gt; 潜行攻击</p>
+<p>本节剩余部分将只讨论感染。</p>
+<h3>升级顺序</h3>
+<p>前 29 点需要用来满级感染专家、破坏、潜行攻击。</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>点数</th>
+<th>入侵速度</th>
+<th>感染伤害</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>50</td>
+<td>8</td>
+<td>22</td>
+</tr>
+<tr>
+<td>100</td>
+<td>33</td>
+<td>47</td>
+</tr>
+<tr>
+<td>200</td>
+<td>83</td>
+<td>97</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>超过 200 后，可以开始 1:1 分配。超过 200 后，两者的边际收益非常相似。</p>
+<p>如果你好奇这些数字怎么来的：</p>
+<ul>
+<li>速度边际收益 = 4 / (1 + 0.04 * 等级) %</li>
+<li>伤害边际收益 = 10 / (1 + 0.10 * 等级) %</li>
+</ul>
+<p>在伤害等级 22 时，等级 23 提供 3.03% 收益，入侵速度等级 8 提供 3.03% 收益。</p>
+<p>当到达约等级 298 时，两者差异为 0.01%，此时两者提供非常相似的收益。</p>
+<h3>入侵技能</h3>
+<p>在研究树（Research Tree）中你解锁入侵技能（Breach Skill）来修改或改善攻击。</p>
+<ul>
+<li><strong>致命载荷 (Critical Payload)</strong> — 10% 几率增加 150% 伤害，输出不稳定</li>
+<li><strong>幽灵攻击 (Ghost Attack)</strong> — 潜行修改器，绕过防火墙 — 有效减半或更多目标 HP</li>
+<li><strong>感染载荷 (Infect Payload)</strong> — 20% 载荷输出作为感染 — 需要 2 种不同的伤害升级 — 效率低</li>
+<li><strong>蓄力攻击 (Charged Attack)</strong> — 蓄力 3 次攻击获得 100% 增加，伤害提升稳定</li>
+<li><strong>扩散感染 (Spread Infection)</strong> — 扩散修改器，每秒伤害增长 10% — 不错，但不如蓄力攻击</li>
+</ul>
+<p>我的建议是<strong>8x 蓄力攻击</strong>配合<strong>幽灵攻击</strong>。</p>
+<p>致命载荷实际上是一个很好的入侵技能，但由于不稳定的结果而失败。8x 致命载荷，每个 10% 成功几率，4 个成功的概率是 0.48%，全部 8 个基本不可能（0.000001%）。</p>
+<p>另一方面，蓄力攻击提供 100% 增加 — 这需要进一步解释，这不是让攻击翻倍，而是 1.5x 倍率，所以 1.5^8 = 25.63x 倍率提升。蓄力机制几乎不重要，因为蓄力发生在攻击窗口之外，且同时进行。</p>
+<p>最后，幽灵攻击完全消除防火墙而不损失伤害。或者你可以运行 9 个蓄力器，提供 38.44x 提升，但比幽灵攻击略低约 8%。</p>
+<p>护盾 / (护盾 + HP) ≈ 38.2%（根据入侵目标等级变化）<br>
+如果护盾低于 33%，第 9 个蓄力攻击更好，如果更高则幽灵获胜。</p>
+<p>最后，执行注入 (Execute Injection) + 链式注入 (Chain Inject)：这是另一个乘法倍率。用一半黑客力量，你需要至少 2x 配合链式注入才值得，但任何更高都是额外奖励。</p>
+<hr>
+<h2>基础：编码</h2>
+<h3>目标：构建或提交</h3>
+<ol>
+<li><strong>提交 (Commit)</strong> 奖励贡献值，相当于经验值，允许你升级编码界面</li>
+<li><strong>构建 (Build)</strong> 奖励点数或提升
+<ul>
+<li><strong>优化代码 (Optimization Code)</strong>：奖励优化点数，允许节点更高效/优化运行</li>
+<li><strong>应用代码 (Application Code)</strong>：奖励应用点数，用于解锁升级或新节点</li>
+<li><strong>驱动代码 (Driver Code)</strong>：提升硬件（网络、CPU、GPU）</li>
+</ul>
+</li>
+</ol>
+<p>一般的优先顺序应该是：先应用几点，然后优化，硬件最后。应用和优化的前几点差异很大，但驱动需要累积提升，所以比其他两个花更长时间。</p>
+<h3>代码修改器</h3>
+<p>与文件类似，代码也有修改器：</p>
+<ul>
+<li><strong>有 Bug (Bugged)</strong>：品质降低 4x</li>
+<li><strong>已注释 (Commented)</strong>：价值增加 2x</li>
+<li><strong>已调试 (Debugged)</strong>：品质提升 4x</li>
+<li><strong>已优化 (Optimized)</strong>：品质提升 2x（每个代码可优化 3x 获得 6x 品质）</li>
+</ul>
+<p>因为最低修改器提升是 2x，所以建议在代码中放入一些修改器，而不是裸跑。</p>
+<h3>初始设置</h3>
+<ul>
+<li>每种变量</li>
+<li>2 个变量组合器（Variable Combiner）创建 BitFlat 和 Vector</li>
+<li>代码优化（Code Optimization）</li>
+</ul>
+<p>当你解锁添加修改器的节点时，尝试将其添加到现有设置中以增加贡献和构建奖励。</p>
+<h3>其他初始设置</h3>
+<h4>代码 Bug 修复</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/df2cce384dca72ed2f19ee096522fe0034107e31533e46c1d892eee4cca37a13/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313834373430373333313030303531363532302f324437464638394246354532363336443937414534433330383543424144464639453444363042352f"><img src="https://camo.githubusercontent.com/df2cce384dca72ed2f19ee096522fe0034107e31533e46c1d892eee4cca37a13/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313834373430373333313030303531363532302f324437464638394246354532363336443937414534433330383543424144464639453444363042352f" alt="Bug 修复" data-canonical-src="https://images.steamusercontent.com/ugc/11847407331000516520/2D7FF89BF5E2636D97AE4C3085CBADFF9E4D60B5/" style="max-width: 100%;"></a></p>
+<ul>
+<li>展示了 2 种不同的 Bug 修复布局</li>
+<li><strong>批量修复 (Bulk Fix) 需要解锁</strong>才能使用</li>
+</ul>
+<h4>应用代码</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a53faf85fa89401517c63d3b237a8425ea34d367abc29ab6a395b4601ed24228/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313338343935353139353034323831343739302f463430373845343245344231313341343330363042334437304445443745373545443530374139372f"><img src="https://camo.githubusercontent.com/a53faf85fa89401517c63d3b237a8425ea34d367abc29ab6a395b4601ed24228/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313338343935353139353034323831343739302f463430373845343245344231313341343330363042334437304445443745373545443530374139372f" alt="应用代码" data-canonical-src="https://images.steamusercontent.com/ugc/11384955195042814790/F4078E42E4B113A43060B3D70DED7E75ED507A97/" style="max-width: 100%;"></a></p>
+<h4>代码驱动</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2bef13629b96855bca607e941d721fdf31b18dae2dc7eea364ffb6971523e6b9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373833343434323735393332383539393634312f334134413030323534434146353935413642384336414235454235373732434245333942424131422f"><img src="https://camo.githubusercontent.com/2bef13629b96855bca607e941d721fdf31b18dae2dc7eea364ffb6971523e6b9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373833343434323735393332383539393634312f334134413030323534434146353935413642384336414235454235373732434245333942424131422f" alt="代码驱动" data-canonical-src="https://images.steamusercontent.com/ugc/17834442759328599641/3A4A00254CAF595A6B8C6AB5EB5772CBE39BBA1B/" style="max-width: 100%;"></a></p>
+<p>代码驱动是计算编码速度变得复杂的部分。</p>
+<ul>
+<li>每个<strong>代码驱动</strong>需要 1 个 HashMap[Vector]和 1 个 HashMap[Decimal]</li>
+<li><strong>HashMap[Vector]</strong>：需要 Array[String]和 Array[Vector]</li>
+<li><strong>HashMap[Decimal]</strong>：需要 Array[String]和 Array[Decimal]</li>
+<li>每个 HashMap 有 1 个独特 Array，但共享 1 个 Array</li>
+<li>每个代码驱动需要：<strong>2 个 Array[String]、1 个 Array[Vector]、1 个 Array[Decimal]</strong></li>
+</ul>
+<h3>处理代码</h3>
+<p>一旦你创建代码，类似于你的主流程或研究，你可以修改这些来改变它们的特性。如上面代码修改器所述。你可以优化、调试、翻译、注释你的代码。使用 If 或 For 节点将帮助你在这里大大优化编码速度使用。例如，Debug 只标记一半代码有 Bug，所以你只需要 50% 输出用于代码 Bug 修复作为主代码。如果你有批量 Bug 修复，你只需要 25% 因为它们输出是普通 Bug 修复节点的 2 倍。两者在没有 For 或 If 的情况下都很难实现。如果你在布局或比率上有困难，查看终局：编码部分中我关于提交处理器和说明的内容，其中涵盖了完整流驱动代码的所有比率。</p>
+<hr>
+<h2>基础：工厂</h2>
+<h3>目标：最终产品</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/47dd1fab7368d68336522b13f4695cf1d723a25f230c37b34fd94b21c0875cd8/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373036343434333437313633353835313834392f373136414537314538314244363735383641413336333344313237453144394130303344314237342f"><img src="https://camo.githubusercontent.com/47dd1fab7368d68336522b13f4695cf1d723a25f230c37b34fd94b21c0875cd8/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373036343434333437313633353835313834392f373136414537314538314244363735383641413336333344313237453144394130303344314237342f" alt="工厂产品" data-canonical-src="https://images.steamusercontent.com/ugc/17064443471635851849/716AE71E81BD67586AA3633D127E1D9A003D1B74/" style="max-width: 100%;"></a></p>
+<p>工厂有 4 种最终产品：</p>
+<ul>
+<li><strong>路由器 (Routers)</strong> — 增加网络</li>
+<li><strong>CPU</strong> — 增加 CPU</li>
+<li><strong>GPU</strong> — 增加 GPU</li>
+<li><strong>量子比特 (Qubits)</strong> — 增加量子处理器</li>
+</ul>
+<p>有多种增加它们的方法。</p>
+<p>本攻略只涵盖 2 种主要的工厂建设方法：100% 进口或 100% 自给自足。</p>
+<p>进口是扩展硬件性能的简单方法。转移一小部分就足以扩展性能。一旦电力运行起来，你应该切换到自给自足工厂。进口布局会被收入瓶颈限制。</p>
+<h3>100% 进口</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/061f17d9728299343b9678cbe79fbfa29fc8bb52b479149a5b67950e905fcea9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393537393138303330393035373232363830382f424645333741463945313532363830304341464442323146393233443644303637313845313739452f"><img src="https://camo.githubusercontent.com/061f17d9728299343b9678cbe79fbfa29fc8bb52b479149a5b67950e905fcea9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393537393138303330393035373232363830382f424645333741463945313532363830304341464442323146393233443644303637313845313739452f" alt="进口布局" data-canonical-src="https://images.steamusercontent.com/ugc/9579180309057226808/BFE37AF9E1526800CAFDB21F923D6D06718E179E/" style="max-width: 100%;"></a></p>
+<p>量子比特（Qubits）不能 100% 进口，所以根据你当前的收入，超导铸造厂（Superconduction Foundry）和电子束（Electron-Beam）的数量会变化。如果你的收入比率对量子比特设置正确，你需要 2 个超导铸造厂配 1 个电子束。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b78665c05d138c5343b3348337d771a71b22de484d7b3c8195d24442c6eb64aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303234343134383733343339323536343131392f394242373641373635424139453131354544303935383041393042463938363742423943363535302f"><img src="https://camo.githubusercontent.com/b78665c05d138c5343b3348337d771a71b22de484d7b3c8195d24442c6eb64aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303234343134383733343339323536343131392f394242373641373635424139453131354544303935383041393042463938363742423943363535302f" alt="进口扩展" data-canonical-src="https://images.steamusercontent.com/ugc/10244148734392564119/9BB76A765BA9E115ED09580A90BF9867BB9C6550/" style="max-width: 100%;"></a></p>
+<p>这是一个扩展以适应你收入的示例。</p>
+<h3>自给自足</h3>
+<h4>开始建设</h4>
+<p><strong>PCB</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/142bfe01e026fe6e1605e3bb8eeda8dd39c8b1e5a2bedc5f7092a0a725f631ad/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323038323336323031363731353432323133362f414642303832303743434434453343323839393542434237303943433437354543333338413539342f"><img src="https://camo.githubusercontent.com/142bfe01e026fe6e1605e3bb8eeda8dd39c8b1e5a2bedc5f7092a0a725f631ad/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323038323336323031363731353432323133362f414642303832303743434434453343323839393542434237303943433437354543333338413539342f" alt="PCB" data-canonical-src="https://images.steamusercontent.com/ugc/12082362016715422136/AFB08207CCD4E3C28995BCB709CC475EC338A594/" style="max-width: 100%;"></a></p>
+<p><strong>晶体管</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e011fa579acc5197b1d93c649761b8b2135524763a4e8a414613f05bcd725f6e/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363136313232313237353439393631303234332f333339364633394243444443433145313046374239424539463741464646344534303142393738442f"><img src="https://camo.githubusercontent.com/e011fa579acc5197b1d93c649761b8b2135524763a4e8a414613f05bcd725f6e/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363136313232313237353439393631303234332f333339364633394243444443433145313046374239424539463741464646344534303142393738442f" alt="晶体管" data-canonical-src="https://images.steamusercontent.com/ugc/16161221275499610243/3396F39BCDDCC1E10F7B9BE9F7AFFF4E401B978D/" style="max-width: 100%;"></a></p>
+<p>信不信由你，除了量子比特的几个额外步骤，工厂就这些了。</p>
+<p><strong>量子比特</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/403af30dd9a29f651f9d279178c0453bc1b03fa3231d1836fa59ae019ba3e2c5/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333837323632373835333830383030323235382f323143453932393642314134383046373731423939353246324238463643454535424532443137412f"><img src="https://camo.githubusercontent.com/403af30dd9a29f651f9d279178c0453bc1b03fa3231d1836fa59ae019ba3e2c5/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333837323632373835333830383030323235382f323143453932393642314134383046373731423939353246324238463643454535424532443137412f" alt="量子比特" data-canonical-src="https://images.steamusercontent.com/ugc/13872627853808002258/21CE9296B1A480F771B9952F2B8F6CEE5BE2D17A/" style="max-width: 100%;"></a></p>
+<p>如你所见，直到晶圆合成器（Wafer Synthesizer），与晶体管布局相同，然后进一步加工晶圆到量子比特。</p>
+<h3>完整初始布局</h3>
+<p><strong>1/1/1</strong></p>
+<p>这是一个 1/1/1 路由器/CPU/GPU 布局：</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/600a153781b4f517a8aec4204f2a995c2d5dd72a678e858aa39ebd10bc29ddfc/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363935303639303139333036303238393434332f394443354433433942373236313734353237373633443337363238364237364232464136374331432f"><img src="https://camo.githubusercontent.com/600a153781b4f517a8aec4204f2a995c2d5dd72a678e858aa39ebd10bc29ddfc/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363935303639303139333036303238393434332f394443354433433942373236313734353237373633443337363238364237364232464136374331432f" alt="1/1/1 布局" data-canonical-src="https://images.steamusercontent.com/ugc/16950690193060289443/9DC5D3C9B726174527763D376286B76B2FA67C1C/" style="max-width: 100%;"></a></p>
+<p><strong>2/2/2/1</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/535571d0a27baa980709f8f7ef2e4423be877157a5fb6e4c272b4db1d51248d3/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373330343234363132353331343837353439362f454134434534353343413743334544383937463035423634374235453246313233363837453231422f"><img src="https://camo.githubusercontent.com/535571d0a27baa980709f8f7ef2e4423be877157a5fb6e4c272b4db1d51248d3/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373330343234363132353331343837353439362f454134434534353343413743334544383937463035423634374235453246313233363837453231422f" alt="2/2/2/1 布局" data-canonical-src="https://images.steamusercontent.com/ugc/17304246125314875496/EA4CE453CA7C3ED897F05B647B5E2F123687E21B/" style="max-width: 100%;"></a></p>
+<h3>计算</h3>
+<p>解释这有点困难，但本质上，每创建一个最终产品，就会在上游产生额外需求。</p>
+<p>例如：如果我们看路由器：每个路由器消耗 2 PCB/s，1个PCB焊接器（PCB Solder）创建 4 PCB/s = 0.5 PCB 焊接器。每个 PCB 焊接器消耗 4 塑料/s 和 16 线/s，但只有 1 个路由器装配器（Router Assembler）时，你只需要 50% 的产能，所以 2 塑料/s 和 8 线/s。依此类推...</p>
+<p><strong>需要的机器 = 总需求率 / 机器产量</strong></p>
+<p>要找到需求：<strong>需求率 = (消费机器数量) * (每台机器输入率)</strong></p>
+<p>这在头脑中或纸上不是可行的任务，这里通常使用线性代数，这不是数学攻略。</p>
+<hr>
+<h2>理解：工厂数据</h2>
+<p>游戏中显示的数字被四舍五入以适应科学记数法或其他记数法。所以很难获得精确数字，但数字似乎都匹配并整齐地简化。</p>
+<p>我们获取每个工厂节点的所有数据，通过将所有值除以 1.76e12 来标准化，将基础转换为最高等级基础速度并四舍五入。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/daaa95c03a5cfe01577bf9bf989c381f6acd18211b17bc250dca6bf7ada1f230/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353133393232323938393634313431363035302f303645373330303330353836323839373744304144363032343738363037453544433042423835422f"><img src="https://camo.githubusercontent.com/daaa95c03a5cfe01577bf9bf989c381f6acd18211b17bc250dca6bf7ada1f230/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353133393232323938393634313431363035302f303645373330303330353836323839373744304144363032343738363037453544433042423835422f" alt="工厂数据" data-canonical-src="https://images.steamusercontent.com/ugc/15139222989641416050/06E73003058628977D0AD602478607E5DC0BB85B/" style="max-width: 100%;"></a></p>
+<h3>节点比率</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/919d83f7f45d52634c78846eb36d3f18c0b422339ba9b318e78fb0476b94dc7a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363937303438323636393834393730313532382f394645434430324545424142433142333644383741374433333239393335413632394436303835372f"><img src="https://camo.githubusercontent.com/919d83f7f45d52634c78846eb36d3f18c0b422339ba9b318e78fb0476b94dc7a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363937303438323636393834393730313532382f394645434430324545424142433142333644383741374433333239393335413632394436303835372f" alt="节点比率" data-canonical-src="https://images.steamusercontent.com/ugc/16970482669849701528/9FECD02EEBABC1B36D87A7D3329935A629D60857/" style="max-width: 100%;"></a></p>
+<p>输入 1 和输入 2 的上游节点数量显示单个机器节点从更上游的机器填充多少产能。（例如：石油精炼器（Oil Refiner）是 0.5，所以需要 2 个石油精炼器来填充 1 个石油泵（Oil Pump））</p>
+<hr>
+<h2>基础：电力</h2>
+<h3>增强器 (Empowerer)</h3>
+<p><strong>提升公式：1.5^(瓦特)</strong></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/51cc62878ea8fca7b6627286b2f2906ef5b83fb85bf865e53a4cbfc1f67731d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343437323536363533343537363635353834322f314530324337463233434341323031313330413539434135324333373236343932304532423841352f"><img src="https://camo.githubusercontent.com/51cc62878ea8fca7b6627286b2f2906ef5b83fb85bf865e53a4cbfc1f67731d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343437323536363533343537363635353834322f314530324337463233434341323031313330413539434135324333373236343932304532423841352f" alt="增强器" data-canonical-src="https://images.steamusercontent.com/ugc/14472566534576655842/1E02C7F23CCA201130A59CA52C37264920E2B8A5/" style="max-width: 100%;"></a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>瓦特</th>
+<th>提升倍率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2.25</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5.06</td>
+</tr>
+<tr>
+<td>8</td>
+<td>25.63</td>
+</tr>
+<tr>
+<td>16</td>
+<td>656.84</td>
+</tr>
+<tr>
+<td>32</td>
+<td>431,439.88</td>
+</tr>
+<tr>
+<td>64</td>
+<td>186,140,372,879</td>
+</tr>
+<tr>
+<td>128</td>
+<td>3.46E+22</td>
+</tr>
+<tr>
+<td>256</td>
+<td>1.20E+45</td>
+</tr>
+<tr>
+<td>512</td>
+<td>1.44E+90</td>
+</tr>
+<tr>
+<td>1024</td>
+<td>2.08E+180</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p><strong>免责声明：</strong> 目前，一旦到达某个点，有一个 bug/故障会显示 0 或奇怪的文字，并可能停止生成所有资源。</p>
+<h3>电力线 (Power Line)</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/424302007d79378a64226f12ff702dd46b1abce8a4087b9c1ee447d63590fdef/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363833343539383632353530323638373636362f324143354537323230394542414234453430423142363235363445313933414333363037314546352f"><img src="https://camo.githubusercontent.com/424302007d79378a64226f12ff702dd46b1abce8a4087b9c1ee447d63590fdef/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363833343539383632353530323638373636362f324143354537323230394542414234453430423142363235363445313933414333363037314546352f" alt="电力线" data-canonical-src="https://images.steamusercontent.com/ugc/16834598625502687666/2AC5E72209EBAB4E40B1B62564E193AC36071EF5/" style="max-width: 100%;"></a></p>
+<p>电力线作为合并器工作，类似于文件夹、容器、仓库。</p>
+<h3>电力分配</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/bc9cf130b38301191ccb41037859c589d10db44f8eb9fa62f90458bfb1343b7c/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353137353737383236383738363633373031332f443542433045303231424246374243303833383536303938443141313244363437413839313045412f"><img src="https://camo.githubusercontent.com/bc9cf130b38301191ccb41037859c589d10db44f8eb9fa62f90458bfb1343b7c/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353137353737383236383738363633373031332f443542433045303231424246374243303833383536303938443141313244363437413839313045412f" alt="电力分配" data-canonical-src="https://images.steamusercontent.com/ugc/15175778268786637013/D5BC0E021BBF7BC083856098D1A12D647A8910EA/" style="max-width: 100%;"></a></p>
+<p>电力分配不像其他任何东西那样工作，分裂连接均匀分配。相反，电力按操作顺序填充。连接更靠近电源的先填充，然后余量移动到下一个电力线（Power Line）。除非增强器（Empowerer）直接连接到电源（不是电力线）。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6ef69fd014b4a4e136cc813791846ff5ee9d6ea048a8510417450224eb15572d/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393432383139303238323335373738353236332f423744303539363243323637414230433730383333313144354138353436324234313543394235342f"><img src="https://camo.githubusercontent.com/6ef69fd014b4a4e136cc813791846ff5ee9d6ea048a8510417450224eb15572d/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393432383139303238323335373738353236332f423744303539363243323637414230433730383333313144354138353436324234313543394235342f" alt="电力分配 2" data-canonical-src="https://images.steamusercontent.com/ugc/9428190282357785263/B7D05962C267AB0C7083311D5A85462B415C9B54/" style="max-width: 100%;"></a></p>
+<h3>基础材料</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/286ab8f131096dca56d3736a3235495765ca321d522a47b9d35bf08573d247d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353133393932343833303434303531303535342f363230314537363544354343443838423033423146383332433039393733464633343339343446452f"><img src="https://camo.githubusercontent.com/286ab8f131096dca56d3736a3235495765ca321d522a47b9d35bf08573d247d2/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353133393932343833303434303531303535342f363230314537363544354343443838423033423146383332433039393733464633343339343446452f" alt="基础材料" data-canonical-src="https://images.steamusercontent.com/ugc/15139924830440510554/6201E765D5CCD88B03B1F832C09973FF343944FE/" style="max-width: 100%;"></a></p>
+<p>所有类型的电力引擎都将使用以下作为基础材料：</p>
+<ul>
+<li>电力 (Power)</li>
+<li>水 (Water)</li>
+<li>煤炭 (Coal)</li>
+<li>硼 (Boron)</li>
+<li>铀 (Uranium)</li>
+</ul>
+<h3>高级材料</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/99f1ed1bdff081769a795920016d36271a8076e9e6bed3fbb40b2604097462ae/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333037393836383630353634313231323132342f453532433230443134383635464637354231443041344445303635343732324635433434364637372f"><img src="https://camo.githubusercontent.com/99f1ed1bdff081769a795920016d36271a8076e9e6bed3fbb40b2604097462ae/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333037393836383630353634313231323132342f453532433230443134383635464637354231443041344445303635343732324635433434364637372f" alt="高级材料" data-canonical-src="https://images.steamusercontent.com/ugc/13079868605641212124/E52C20D14865FF75B1D0A4DE0654722F5C446F77/" style="max-width: 100%;"></a></p>
+<hr>
+<h2>理解：电力布局</h2>
+<h3>布局与效率</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>引擎</th>
+<th>空间</th>
+<th>瓦特</th>
+<th>瓦特/空间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>太阳能 (Solar)</td>
+<td>1</td>
+<td>1</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>风能 (Wind)</td>
+<td>2</td>
+<td>3</td>
+<td>1.50</td>
+</tr>
+<tr>
+<td>煤炭 (Coal)</td>
+<td>7</td>
+<td>16</td>
+<td>2.29</td>
+</tr>
+<tr>
+<td>富化煤 (Enrich Coal)</td>
+<td>19</td>
+<td>40</td>
+<td>2.11</td>
+</tr>
+<tr>
+<td>高稳定性裂变 (High Stab Fission)</td>
+<td>7</td>
+<td>20</td>
+<td>2.86</td>
+</tr>
+<tr>
+<td>低稳定性裂变 (Low Stab Fission)</td>
+<td>21</td>
+<td>81</td>
+<td>3.85</td>
+</tr>
+<tr>
+<td>自给低稳定性裂变</td>
+<td>19</td>
+<td>78</td>
+<td>4.10</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>除了富化煤，每个新解锁都是更高效的发电方式。电力上限 120 个节点，而游戏内总共 500 个节点。所以你想尽可能多地挤出电力。</p>
+<h3>基础布局</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6bbaa8f9596038b0145857555d75a8d60d228d4c9cc7e8159c84419c3a85d780/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363732303933303337363632393133363830392f303742323936444530374442383534313937353945364243464630423637434238364433433935442f"><img src="https://camo.githubusercontent.com/6bbaa8f9596038b0145857555d75a8d60d228d4c9cc7e8159c84419c3a85d780/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363732303933303337363632393133363830392f303742323936444530374442383534313937353945364243464630423637434238364433433935442f" alt="基础布局" data-canonical-src="https://images.steamusercontent.com/ugc/16720930376629136809/07B296DE07DB85419759E6BCFF0B67CB86D3C95D/" style="max-width: 100%;"></a></p>
+<p>太阳能：1 空间产生 1W<br>
+风能：2 空间产生 3W</p>
+<h3>煤炭布局</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4bbbe72514a47f3aabe75bc0b77c0d371812d64fac844b7f565c230fe6eff7a5/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333433373033333733303539303532363234362f384238444230323031363136413536393246353142463836393930463346304233373241413639392f"><img src="https://camo.githubusercontent.com/4bbbe72514a47f3aabe75bc0b77c0d371812d64fac844b7f565c230fe6eff7a5/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333433373033333733303539303532363234362f384238444230323031363136413536393246353142463836393930463346304233373241413639392f" alt="煤炭布局" data-canonical-src="https://images.steamusercontent.com/ugc/13437033730590526246/8B8DB0201616A5692F51BF86990F3F0B372AA699/" style="max-width: 100%;"></a></p>
+<p>煤炭需要 10 秒燃烧，需要 0.125 煤炭/s，游戏会显示 0.13/s</p>
+<h3>富化煤</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7a3e77da03c63dccf61ce71a70fd8d759b6617335f832b0b510c8d1451872908/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373031333238343731323534393433313530382f304642464644414431323543413330423738393234354532374333443435373334443339384243422f"><img src="https://camo.githubusercontent.com/7a3e77da03c63dccf61ce71a70fd8d759b6617335f832b0b510c8d1451872908/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373031333238343731323534393433313530382f304642464644414431323543413330423738393234354532374333443435373334443339384243422f" alt="富化煤" data-canonical-src="https://images.steamusercontent.com/ugc/17013284712549431508/0FBFFDAD125CA30B789245E27C3D45734D398BCB/" style="max-width: 100%;"></a></p>
+<p>富化煤需要 20 秒燃烧，仅需 0.05 煤炭/s</p>
+<p><strong>不推荐富化煤（Enrich Coal）。</strong> 你需要 19 空间才能实现 100% 运行时间且无瓶颈，而普通煤炭（Coal）只需 7 个空间。普通煤炭每空间也产生更多电力。</p>
+<h3>裂变布局</h3>
+<h4>高稳定性裂变</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c12593b4e79be5c51795195bee73f2ed7afa47bcce135bae84807fd6b61dd3aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343833373733313639323834313937373838362f394646304637333331323431333831444630453833463442333244333341453245374533464231382f"><img src="https://camo.githubusercontent.com/c12593b4e79be5c51795195bee73f2ed7afa47bcce135bae84807fd6b61dd3aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343833373733313639323834313937373838362f394646304637333331323431333831444630453833463442333244333341453245374533464231382f" alt="高稳定性裂变" data-canonical-src="https://images.steamusercontent.com/ugc/14837731692841977886/9FF0F7331241381DF0E83F4B32D33AE2E7E3FB18/" style="max-width: 100%;"></a></p>
+<p>高稳定性裂变工作时间为 10 秒。需要：</p>
+<ul>
+<li>2.5/s 水 用于 25/10s</li>
+<li>0.1/s 铀 用于 1/10s</li>
+<li>0.2/s 硼 用于 2/10s</li>
+</ul>
+<h4>低稳定性裂变</h4>
+<p>蓝图：<a href="https://pastebin.com/SXt4b44A" rel="nofollow">https://pastebin.com/SXt4b44A</a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/58f75251715f4f9bd0b530ed0ea813d1ba3bf4a9b498c31de2fd451e0f78e662/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383137353430383833333234333831323238372f424333313338454333413437334131424236453642423033333530394138363044443439364445422f"><img src="https://camo.githubusercontent.com/58f75251715f4f9bd0b530ed0ea813d1ba3bf4a9b498c31de2fd451e0f78e662/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383137353430383833333234333831323238372f424333313338454333413437334131424236453642423033333530394138363044443439364445422f" alt="低稳定性裂变" data-canonical-src="https://images.steamusercontent.com/ugc/18175408833243812287/BC3138EC3A473A1BB6E6BB033509A860DD496DEB/" style="max-width: 100%;"></a></p>
+<p>低稳定性裂变工作时间为 5 秒。需要：</p>
+<ul>
+<li>5/s 水 用于 25/5s</li>
+<li>0.8/s 铀 用于 4/5s</li>
+<li>0.4/s 硼 用于 4/10s</li>
+</ul>
+<h4>自给低稳定性裂变</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/bd0381e3bf771a9fd9dd4a4b0d2e67899005abf12358b79b5a3759723a5d9c92/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383138393032373430373631323339363839352f303834373830414239454646413536323530314444353730373231363330443739334430464241442f"><img src="https://camo.githubusercontent.com/bd0381e3bf771a9fd9dd4a4b0d2e67899005abf12358b79b5a3759723a5d9c92/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383138393032373430373631323339363839352f303834373830414239454646413536323530314444353730373231363330443739334430464241442f" alt="自给低稳定性裂变" data-canonical-src="https://images.steamusercontent.com/ugc/18189027407612396895/084780AB9EFFA562501DD570721630D793D0FBAD/" style="max-width: 100%;"></a></p>
+<p>与普通低稳定性裂变相同，但移除 2 个太阳能板来为水泵供电，使用自身电力来维持运行。确实需要太阳能板来启动。</p>
+<hr>
+<h2>中期：分解节点</h2>
+<p>分解节点是将某些文件类型分解为较低格式类型的节点。到目前为止文件格式的典型进程是：文本 &gt; 图像 &gt; 音频 &gt; 视频 &gt; 程序 &gt; 游戏</p>
+<p>分解方向相反。</p>
+<p>节点列表、输入、输出和转换率：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>输入</th>
+<th>输出</th>
+<th>转换率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>反编译器 (Decompiler)</td>
+<td>程序</td>
+<td>文本</td>
+<td>每个程序 2.00E8 文本</td>
+</tr>
+<tr>
+<td>分解器 (Decomposer)</td>
+<td>视频</td>
+<td>图像</td>
+<td>每个视频 2.00E4 图像</td>
+</tr>
+<tr>
+<td>解复用器 (Demuxer)</td>
+<td>视频</td>
+<td>音频</td>
+<td>每个视频 200 音频</td>
+</tr>
+<tr>
+<td>拆解器 (Scrapper)</td>
+<td>游戏</td>
+<td>视频</td>
+<td>每个游戏 2.00E4 视频</td>
+</tr>
+<tr>
+<td>提取器 (Ripper)</td>
+<td>游戏</td>
+<td>程序</td>
+<td>每个游戏 200 程序</td>
+</tr>
+<tr>
+<td>拼接器 (Splicer)</td>
+<td>视频</td>
+<td>图像和音频</td>
+<td>每个视频 2.00E4 图像 + 200 音频</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>拼接器是唯一使用 GPU 而非 CPU 的节点。</p>
+<p>每个单元输出更大的数字，但各格式之间并不完全一致。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/19a5f0f924ffef86db58e40ce4e1fd82b53f5cb217ead801f02a2281b95b7a44/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333133333534393038333137333136323232382f454334374232453831453843413942364145433645344245413430393139443435343230424234322f"><img src="https://camo.githubusercontent.com/19a5f0f924ffef86db58e40ce4e1fd82b53f5cb217ead801f02a2281b95b7a44/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333133333534393038333137333136323232382f454334374232453831453843413942364145433645344245413430393139443435343230424234322f" alt="分解示例" data-canonical-src="https://images.steamusercontent.com/ugc/13133549083173162228/EC47B2E81E8CA9B6AEC6E4BEA40919D45420BB42/" style="max-width: 100%;"></a></p>
+<p><strong>示例：</strong> 如果你得到 1,000 个游戏（1e3）</p>
+<p><strong>分割 1 — 2:3（游戏文件）</strong></p>
+<ul>
+<li>2 (400) → 游戏训练器</li>
+<li>3 (600) → 进一步分割
+<ul>
+<li>300 → 提取器 → 程序 (300 * 200 = 60,000 程序)</li>
+<li>300 → 拆解器 → 视频 (300 * 20,000 = 6,000,000 视频)</li>
+</ul>
+</li>
+</ul>
+<p><strong>分割 2 — 2:1（程序文件）</strong></p>
+<ul>
+<li>2 (40,000) → 程序训练器</li>
+<li>1 (20,000) → 反编译器 → 文本训练器 (20,000 * 2.00E8 = 4.00E12)</li>
+</ul>
+<p><strong>分割 3 — 2:1（视频文件）</strong></p>
+<ul>
+<li>2 (4,000,000) → 视频训练器</li>
+<li>1 (2,000,000) → 拼接器 → 图像 + 音频
+<ul>
+<li>图像训练器 (2,000,000 * 2.00E4 = 4.00E10)</li>
+<li>音频训练器 (2,000,000 * 200 = 4.00E8)</li>
+</ul>
+</li>
+</ul>
+<p><strong>最终输出：</strong></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>文件</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文本</td>
+<td>4.00E12</td>
+</tr>
+<tr>
+<td>图像</td>
+<td>4.00E10</td>
+</tr>
+<tr>
+<td>音频</td>
+<td>4.00E8</td>
+</tr>
+<tr>
+<td>视频</td>
+<td>4.00E6</td>
+</tr>
+<tr>
+<td>程序</td>
+<td>4.00E4</td>
+</tr>
+<tr>
+<td>游戏</td>
+<td>4.00E2</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<hr>
+<h2>中期：收入蓝图</h2>
+<p>蓝图：<a href="https://pastebin.com/ygMbu9sM" rel="nofollow">https://pastebin.com/ygMbu9sM</a></p>
+<h3>种子</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/df4bd7705ae30599b84c67f25a47c911fd0de08e6c5c3b8281cb4347d5deb379/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333839383230333032393430363537393838362f363734343842313639314144323537303036383839383146354543314430354232383931383539302f"><img src="https://camo.githubusercontent.com/df4bd7705ae30599b84c67f25a47c911fd0de08e6c5c3b8281cb4347d5deb379/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31333839383230333032393430363537393838362f363734343842313639314144323537303036383839383146354543314430354232383931383539302f" alt="种子布局" data-canonical-src="https://images.steamusercontent.com/ugc/13898203029406579886/67448B1691AD25700688981F5EC1D05B28918590/" style="max-width: 100%;"></a></p>
+<h3>收入布局</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c6e8d40cd69bc028b97fff1c64ae03023c4a7bc71919433f555d0f6ad02874a1/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383335343939363737373935353632303032322f414331304443314230384130393431374144384238433633353637413930454242444535453244422f"><img src="https://camo.githubusercontent.com/c6e8d40cd69bc028b97fff1c64ae03023c4a7bc71919433f555d0f6ad02874a1/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383335343939363737373935353632303032322f414331304443314230384130393431374144384238433633353637413930454242444535453244422f" alt="收入布局" data-canonical-src="https://images.steamusercontent.com/ugc/18354996777955620022/AC10DC1B08A09417AD8B8C63567A90EBBDE5E2DB/" style="max-width: 100%;"></a></p>
+<h3>CPU 比率</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7171144c7ff492b61b71cca7a28fec5b7f164627d1ccc9246235a17b17e0fc6f/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363132313038313739363830383330393134312f354343453533414230303244313230314232414641303946303842324130444131323537323337382f"><img src="https://camo.githubusercontent.com/7171144c7ff492b61b71cca7a28fec5b7f164627d1ccc9246235a17b17e0fc6f/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31363132313038313739363830383330393134312f354343453533414230303244313230314232414641303946303842324130444131323537323337382f" alt="CPU 比率" data-canonical-src="https://images.steamusercontent.com/ugc/16121081796808309141/5CCE53AB002D1201B2AFA09F08B2A0DA12572378/" style="max-width: 100%;"></a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>周期</th>
+<th>倍率</th>
+<th>实际周期</th>
+<th>简化 (/250)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>解压缩器</td>
+<td>250</td>
+<td>1</td>
+<td>250</td>
+<td>1</td>
+</tr>
+<tr>
+<td>解密器</td>
+<td>200</td>
+<td>10</td>
+<td>2000</td>
+<td>8</td>
+</tr>
+<tr>
+<td>压缩器 MAX</td>
+<td>300</td>
+<td>10</td>
+<td>3000</td>
+<td>12</td>
+</tr>
+<tr>
+<td>复制器</td>
+<td>50</td>
+<td>10</td>
+<td>500</td>
+<td>2</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>1 + 8 + 12 + 2 = 23</p>
+<p><strong>分割树：</strong></p>
+<ul>
+<li>1(解压缩器（Unzipper）) : 22(下一次分割)</li>
+<li>8 : 14 或 4(解密器（Decryptor）) : 7(下一次分割)</li>
+<li>12 : 2 或 6(压缩器 MAX（Compressor Max）) : 1(复制器（Duplicator）)</li>
+</ul>
+<h3>木马</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/11d59e930474fc786f6b93730971169e47a90a0cb54afc4ee9b5bcd88d732253/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383130323638343730383636323639333032392f344342414245424542443445363338323431423831304633303034343935363836433444363132332f"><img src="https://camo.githubusercontent.com/11d59e930474fc786f6b93730971169e47a90a0cb54afc4ee9b5bcd88d732253/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383130323638343730383636323639333032392f344342414245424542443445363338323431423831304633303034343935363836433444363132332f" alt="木马" data-canonical-src="https://images.steamusercontent.com/ugc/18102684708662693029/4CBABEBEBD4E638241B810F3004495686C4D6123/" style="max-width: 100%;"></a></p>
+<hr>
+<h2>量子处理器</h2>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b24663c9a989a9de8a476c267bc22bf5d0894faf92ce5ed5c78b6dbe017a7e32/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373636343430313332353532323132333839312f353334463338343442414335454530354533313731314442413539343430393646463542344630302f"><img src="https://camo.githubusercontent.com/b24663c9a989a9de8a476c267bc22bf5d0894faf92ce5ed5c78b6dbe017a7e32/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373636343430313332353532323132333839312f353334463338343442414335454530354533313731314442413539343430393646463542344630302f" alt="量子处理器" data-canonical-src="https://images.steamusercontent.com/ugc/17664401325522123891/534F3844BAC5EE05E31711DBA5944096FF5B4F00/" style="max-width: 100%;"></a></p>
+<p>量子处理器（Quantum Processor）接管任何节点中的一个连接作为 CPU。</p>
+<p>它还可以使用 GPU 量化器替换 GPU 连接。</p>
+<p>确保<strong>足够的冷却</strong>来提供量子解算器（Quantum Solver）。</p>
+<p>它提供无限时钟周期，有效释放布局中的任何瓶颈（如果存在的话）。</p>
+<p>由于无限容量，最好将其用于不断增长的节点，特别是 AI 生成器之后的任何节点。</p>
+<hr>
+<h2>AGI 提示词</h2>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4a32521b5f4ef6505243fc65e06f770d80653138d4b205fa978057178fe9be70/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393631303536333037343436343132373332362f453642314232423243414241323941373342353741394243453443304638454632454539454541462f"><img src="https://camo.githubusercontent.com/4a32521b5f4ef6505243fc65e06f770d80653138d4b205fa978057178fe9be70/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393631303536333037343436343132373332362f453642314232423243414241323941373342353741394243453443304638454632454539454541462f" alt="AGI 提示词" data-canonical-src="https://images.steamusercontent.com/ugc/9610563074464127326/E6B1B2B2CABA29A73B57A9BCE4C0F8EF2EE9EEAF/" style="max-width: 100%;"></a></p>
+<p>如果你好奇为什么我没有在任何布局中使用 AGI，这是故意的。AGI 可以用来减轻布局中的压力，或完全移除一部分。本攻略的重点不是展示如何逐步推进游戏，而是提供建议或解决方案。</p>
+<p>到这时，你应该对所有 AGI 节点的功能有所了解，但如果没有，这里是简要说明：一旦你获得 AI 训练器（AI Trainer），你开始产生神经元（Neuron），可以喂给生成器（Generator）产生更多该文件，或者喂给 AGI 核心，积累并产生 AI 力量。你可以用它来使用上面显示的节点，或研究、黑客、编码的 3 个增强节点。</p>
+<p>所有 AGI 提示词节点在正确应用时都极其有效。我不会介绍所有节点的用法，但会提供几个例子。</p>
+<h3>木马</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/11d59e930474fc786f6b93730971169e47a90a0cb54afc4ee9b5bcd88d732253/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383130323638343730383636323639333032392f344342414245424542443445363338323431423831304633303034343935363836433444363132332f"><img src="https://camo.githubusercontent.com/11d59e930474fc786f6b93730971169e47a90a0cb54afc4ee9b5bcd88d732253/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383130323638343730383636323639333032392f344342414245424542443445363338323431423831304633303034343935363836433444363132332f" alt="AGI 木马" data-canonical-src="https://images.steamusercontent.com/ugc/18102684708662693029/4CBABEBEBD4E638241B810F3004495686C4D6123/" style="max-width: 100%;"></a></p>
+<p>这个木马布局可以完全被提示词：感染 (Prompt: Infect) 替代。</p>
+<h3>暴露弱点</h3>
+<p>与其将黑客力量减半执行注入，不如保留它，用 AI 代替暴露弱点。</p>
+<h3>注入</h3>
+<p>这是评论区用户的建议。</p>
+<p>提示词：注入可以应用于病毒扫描过的文件而不移除修改器，提供额外 4x 提升，目前如果不使用提示词似乎不可能实现。代价仅为 1 个 AGI。</p>
+<hr>
+<h2>终局：黑客蓝图</h2>
+<p>蓝图：<a href="https://pastebin.com/pYetpBby" rel="nofollow">https://pastebin.com/pYetpBby</a></p>
+<ul>
+<li>构建感染</li>
+<li>8x 蓄力攻击</li>
+<li>幽灵攻击</li>
+<li>分裂攻击</li>
+<li>执行注入</li>
+<li>链式注入</li>
+<li>4 个入侵目标</li>
+<li>自动收集器</li>
+</ul>
+<p>大部分选择理由在基础：黑客中已涵盖。</p>
+<hr>
+<h2>终局：编码蓝图与说明</h2>
+<p>代码蓝图：<a href="https://pastebin.com/gVK8rMey" rel="nofollow">https://pastebin.com/gVK8rMey</a></p>
+<p><strong>简要说明：如何使用：</strong></p>
+<ol>
+<li>将左侧列的 3 个黄色方块之一连接到右侧的优化 MAX（Optimize Max）</li>
+<li>打开相应的控制器（Controller）节点分组</li>
+</ol>
+<h3>编码布局</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f6b1d92cb5cae2a3c6c881f6f086a2ec81ce0ee8dd537a52f3997aeb7f240406/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393634363630323031353133353534323230372f434541314641464435304241334641384236434341343235394646323839313733424441374538342f"><img src="https://camo.githubusercontent.com/f6b1d92cb5cae2a3c6c881f6f086a2ec81ce0ee8dd537a52f3997aeb7f240406/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393634363630323031353133353534323230372f434541314641464435304241334641384236434341343235394646323839313733424441374538342f" alt="编码布局" data-canonical-src="https://images.steamusercontent.com/ugc/9646602015135542207/CEA1FAFD50BA3FA8B6CCA4259FF289173BDA7E84/" style="max-width: 100%;"></a></p>
+<p>完整代码分为不同的节点分组：</p>
+<ul>
+<li>编码操作控制器</li>
+<li>提交处理器</li>
+<li>应用代码</li>
+<li>驱动代码</li>
+<li>优化代码</li>
+<li>代码 Bug 修复</li>
+</ul>
+<h3>控制器</h3>
+<p>每个标记为控制器的节点分组，按需要控制指定代码构建的编码比率。<br>
+<strong>如果多个同时开启则不起作用</strong></p>
+<h3>提交处理器</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6a2860a89ceeea833b31be4f805dafbaffb47e5ba0523a7d2269127606a27a4e/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313934303339343632383736303336353339332f374132463935374638433842374137363646383946424142453132343231314432413236323038352f"><img src="https://camo.githubusercontent.com/6a2860a89ceeea833b31be4f805dafbaffb47e5ba0523a7d2269127606a27a4e/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313934303339343632383736303336353339332f374132463935374638433842374137363646383946424142453132343231314432413236323038352f" alt="提交处理器" data-canonical-src="https://images.steamusercontent.com/ugc/11940394628760365393/7A2F957F8C8B7A766F89FBABE124211D2A262085/" style="max-width: 100%;"></a></p>
+<p>从 3 个仓库（Repo）中，将你控制器（Controller）开启的内容连接到优化 MAX（Optimize Max）。</p>
+<h3>说明</h3>
+<p>本节帮助理解为什么 IF 节点比率是那样的。我会分解它们的分割方式和背后的原因。</p>
+<p>我们将查看硬件倍率/驱动控制器。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2c7c7cbda41b1b44f66da8f1964507bcef52563d4c2d714b863654ce7cb19209/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313530383837313131373736303339373233302f393344423732383035383544363030414638353130454132333833333635394437413938393642362f"><img src="https://camo.githubusercontent.com/2c7c7cbda41b1b44f66da8f1964507bcef52563d4c2d714b863654ce7cb19209/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313530383837313131373736303339373233302f393344423732383035383544363030414638353130454132333833333635394437413938393642362f" alt="硬件倍率" data-canonical-src="https://images.steamusercontent.com/ugc/11508871117760397230/93DB7280585D600AF8510EA23833659D7A9896B6/" style="max-width: 100%;"></a></p>
+<p>彩色圆圈指向它们从控制器开始到对应节点的位置。</p>
+<ul>
+<li>绿色 = 24 &gt; For 节点用于优化</li>
+<li>橙色 = 32 &gt; For 节点用于翻译</li>
+<li>黄色 = 32 &gt; 16:16（2 路分割）分配给驱动 IDE 和 For 节点用于调试</li>
+<li>紫色 = 8 &gt; 代码字符</li>
+<li>红色 = 1 &gt; For 节点用于 Bug 修复</li>
+</ul>
+<h3>为什么是这些数字？</h3>
+<p><strong>公式：2^(步骤)</strong><br>
+其中：步骤 = 转换为 1 个其他单位所需的 2 个单位</p>
+<ul>
+<li>优化 MAX（Optimize Max）需要 6 个优化代码，每个优化代码需要 4ops，代码优化（Code Optimization）是第 1 步，变量组合器（Variable Combiner）是第 2 步。<strong>2^2 = 4 * 6 = 24ops</strong></li>
+<li>翻译<strong>需要 2x 代码驱动 = 36ops</strong></li>
+<li>代码驱动有 4 步。<strong>4^4 = 16ops</strong>；调试<strong>需要与代码驱动相同的操作数 = 16ops</strong></li>
+<li>注释节点显示每个驱动代码需要<strong>8 个字符</strong>，<strong>每个字符是 1op = 8ops</strong></li>
+<li>代码 Bug 修复需要驱动代码的 50%，批量修复节点输出比普通 Bug 修复多 100%，代码 Bug 修复与普通 Bug 修复步骤相同，1 步。**2^1 = 2ops，双倍输出，所以我们可以 2/2 = 1，只需 50% 需要 1/2 = 0.5。**为简单起见，这四舍五入为 1。净约 0.5/97 总 ops = 0.5% 低效。可以忽略。<strong>总 ops 利用效率 99.95%。</strong></li>
+</ul>
+<h3>布局说明</h3>
+<p>布局旨在尽可能快速和简洁。只需要 2 步即可完成优化提交和构建，如果你想只关注构建或提交则多 1 步。因此有多个 For 和 If 节点，用于组合和分离为每个不同编码构建指定的比率。实际上，一旦你进入游戏后期，你真的不需要应用或优化，因为你已经满级了。</p>
+<hr>
+<h2>终局：研究蓝图与说明</h2>
+<p>研究蓝图：<a href="https://pastebin.com/7nCefniF" rel="nofollow">https://pastebin.com/7nCefniF</a></p>
+<h3>研究布局</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/22c42c2b7ea0718a8e19a38d17f1fce2ffb3799c2900de2fe2d274e64bbfc397/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383432373236383233313636363438393430352f354533353034394141313635413346303234443635433045423645343936364646374241343335362f"><img src="https://camo.githubusercontent.com/22c42c2b7ea0718a8e19a38d17f1fce2ffb3799c2900de2fe2d274e64bbfc397/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383432373236383233313636363438393430352f354533353034394141313635413346303234443635433045423645343936364646374241343335362f" alt="研究布局" data-canonical-src="https://images.steamusercontent.com/ugc/18427268231666489405/5E35049AA165A3F024D65C0EB6E4966FF7BA4356/" style="max-width: 100%;"></a></p>
+<h3>修改器</h3>
+<ul>
+<li>种子（Torrent）：<strong>已分析（Analyzed）</strong>（研究速度 +2x）&amp; <strong>已加密（Encrypted）</strong> &amp; <strong>已压缩（Zipped）</strong></li>
+<li>解压缩器（Unzipper）：移除压缩修改器并 10x 文件</li>
+<li>解密器（Decryptor）：品质 +4x</li>
+<li>数据精炼器（Data Refiner）：研究产量 +2x</li>
+<li>复制器（Duplicator）：2x 文件</li>
+<li>增强器 MAX（Enhancer MAX）：研究产量 +4x</li>
+</ul>
+<p><strong>备注：</strong></p>
+<ul>
+<li>压缩和解压是可选的，减少 DL 和 CPU。</li>
+</ul>
+<h3>说明</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/db6b110a189c10f80df06ab55c9e7fa94bbed9705215292a9a79250105cd0a8f/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383134313037393334323133363531313231392f393231433244413630333344464231444442353832354333464231333937443335443237304541442f"><img src="https://camo.githubusercontent.com/db6b110a189c10f80df06ab55c9e7fa94bbed9705215292a9a79250105cd0a8f/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383134313037393334323133363531313231392f393231433244413630333344464231444442353832354333464231333937443335443237304541442f" alt="研究说明" data-canonical-src="https://images.steamusercontent.com/ugc/18141079342136511219/921C2DA6033DFB1DDB5825C3FB1397D35D270EAD/" style="max-width: 100%;"></a></p>
+<p>彩色圆圈指向从线程管理器（Thread Manager）开始到对应节点的位置。</p>
+<ul>
+<li>绿色 = 36 &gt; 增强 MAX（Enhancer MAX）</li>
+<li>红色 = 16 &gt; 8:8（2 路分割）分配给解密器（Decryptor）和复制器（Duplicator）</li>
+<li>黄色 = 2 &gt; 数据精炼器（Data Refiner）</li>
+<li>蓝色 = 1 &gt; 解压缩器（Unzipper）</li>
+</ul>
+<h3>比率利用</h3>
+<p>首先：解压缩器（Unzipper）10x 文件，意味着后续节点需要 10x 更多 CPU 周期。<br>
+其次：复制器（Duplicator）2x 文件，后续节点需要 2x 更多 CPU 周期。</p>
+<p>现在，为了更好地了解如何分割，我们重新计算理论周期：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>原始周期</th>
+<th>倍率</th>
+<th>更新周期</th>
+<th>简化周期 x/250</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>解压缩器</td>
+<td>250</td>
+<td>1</td>
+<td>250</td>
+<td>1</td>
+</tr>
+<tr>
+<td>解密器</td>
+<td>200</td>
+<td>10</td>
+<td>2,000</td>
+<td>8</td>
+</tr>
+<tr>
+<td>数据精炼器</td>
+<td>50</td>
+<td>10</td>
+<td>500</td>
+<td>2</td>
+</tr>
+<tr>
+<td>复制器</td>
+<td>200</td>
+<td>10</td>
+<td>2,000</td>
+<td>8</td>
+</tr>
+<tr>
+<td>增强器 MAX</td>
+<td>450</td>
+<td>20*</td>
+<td>9,000</td>
+<td>36</td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td><strong>1,150</strong></td>
+<td>—</td>
+<td><strong>13,750</strong></td>
+<td><strong>55</strong></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p><strong>备注：</strong></p>
+<ul>
+<li>
+<p>简化周期 x/250，取更新周期除以 250 得到更小更易管理的数字</p>
+</li>
+<li>
+<p>增强器 MAX 需要 20x 倍率因为解压缩器 10x 和复制器 2x = 10*2 = 20</p>
+</li>
+<li>
+<p>第一个线程管理器（Thread Manager）：36（增强器 MAX（Enhancer MAX））: 19（余量 55-36=19）</p>
+</li>
+<li>
+<p>第二个线程管理器：16（解密器（Decryptor）和复制器（Duplicator）2 路分割 8:8）: 3（余量 19-16=3）</p>
+</li>
+<li>
+<p>最后线程管理器：2（数据精炼器（Data Refiner））: 1（解压缩器（Unzipper））</p>
+</li>
+</ul>
+<hr>
+<h2>终局：收入蓝图</h2>
+<p>蓝图：<a href="https://pastebin.com/q4UqiFqB" rel="nofollow">https://pastebin.com/q4UqiFqB</a></p>
+<h3>木马</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/938cd20e33a749eff9a1f2d2d546743d58230a63defa3932c9b96617eb447888/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343430393430333331303237383738343832342f374142413946384433444642414442373234304235424446433635373642463036303931414431372f"><img src="https://camo.githubusercontent.com/938cd20e33a749eff9a1f2d2d546743d58230a63defa3932c9b96617eb447888/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31343430393430333331303237383738343832342f374142413946384433444642414442373234304235424446433635373642463036303931414431372f" alt="终局木马" data-canonical-src="https://images.steamusercontent.com/ugc/14409403310278784824/7ABA9F8D3DFBADB7240B5BDFC6576BF06091AD17/" style="max-width: 100%;"></a></p>
+<p>此布局展示创建木马的示例流。从种子化感染压缩种子开始。然后解压，再压缩以减少 CPU 使用。神经元增强（Neuron Reinforced）以增加生成器产量。复制器（Duplicator），再次增加生成器产量。然后喂入训练器（Trainer），其神经元（Neuron）用于生成带有木马（Trojan）、感染、3x 压缩、镜像、AI 修改器的文本文件。</p>
+<p><strong>节点列表：</strong></p>
+<ul>
+<li>解压缩器（Unzipper）</li>
+<li>压缩器 MAX（Compressor Max）</li>
+<li>神经元增强（Neuron Reinforced）</li>
+<li>复制器（Duplicator）</li>
+<li>AI 训练器（AI Trainer）</li>
+<li>文本生成器（Text Generator）</li>
+<li>病毒提取器（Virus Extractor）</li>
+<li>操控病毒（Manipulate Virus）</li>
+</ul>
+<h3>压印材料</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a51ae1ba58a2e7c4311c98edd906e51b975408d724a73ff58cbe688d0cb4a08a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323134303233313436333432313631383630342f424330423830383537464437313232433937333533363934393939303536303035434144453442302f"><img src="https://camo.githubusercontent.com/a51ae1ba58a2e7c4311c98edd906e51b975408d724a73ff58cbe688d0cb4a08a/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323134303233313436333432313631383630342f424330423830383537464437313232433937333533363934393939303536303035434144453442302f" alt="压印材料" data-canonical-src="https://images.steamusercontent.com/ugc/12140231463421618604/BC0B80857FD7122C97353694999056005CADE4B0/" style="max-width: 100%;"></a></p>
+<p>此布局用于创建材料来压印（Imprint）修改器到主收入流。开始类似木马（Trojan），加上木马注入器（Trojan Injector）（来自木马布局），混淆器（Obfuscator）以移除感染修改器，这次不是压缩，文件被增强器（Enhancer）增强然后无损压缩器（Lossless Compressor）压缩以保持价值和品质提升，同时保持基础尺寸。然后再次喂入 AI 训练器（AI Trainer）生成压印材料（Imprint Material）。</p>
+<p><strong>节点列表：</strong></p>
+<ul>
+<li>解压缩器（Unzipper）</li>
+<li>解密器（Decryptor）</li>
+<li>神经元增强（Neuron Reinforced）</li>
+<li>木马注入器（Trojan Injector）</li>
+<li>混淆器（Obfuscator）</li>
+<li>增强器 MAX（Enhancer MAX）</li>
+<li>无损压缩器 MAX（Lossless Compressor Max）</li>
+<li>复制器（Duplicator）</li>
+<li>AI 训练器（AI Trainer）</li>
+<li>文本生成器（Text Generator）</li>
+</ul>
+<h3>主收入</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3b969d7b6c00ce88b4827b0969dd9a86750fdbcf7466af742cae19a858e1aefd/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373330323738393532373536383130343535332f314531464446353145344434414541434245334531423436334330453438413838334430463043372f"><img src="https://camo.githubusercontent.com/3b969d7b6c00ce88b4827b0969dd9a86750fdbcf7466af742cae19a858e1aefd/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373330323738393532373536383130343535332f314531464446353145344434414541434245334531423436334330453438413838334430463043372f" alt="主收入" data-canonical-src="https://images.steamusercontent.com/ugc/17302789527568104553/1E1FDF51E4D4AEACBE3E1B463C0E48A883D0F0C7/" style="max-width: 100%;"></a></p>
+<p>这个也类似于之前的布局，区别是我们只下载游戏文件而非文本文件。游戏文件用解压缩器（Unzipper）、解密器（Decryptor）、神经元增强（Neuron Reinforced）、增强器 MAX（Enhancer MAX）、无损压缩器 MAX（Lossless Compressor Max）预处理，然后复制器（Duplicator）。并分配到分解节点。然后喂入训练器（Trainer），再蒸馏器（Distillator）（增加 AGI 神经元生成），生成的文件然后被压印器（Imprinter），然后压缩器（Compressor）供服务器使用。</p>
+<p><strong>分解文件分配计算在中期：分解节点中</strong><br>
+<strong>目标是每种文件格式 1e2 的差异</strong></p>
+<ul>
+<li>解压缩器（Unzipper）</li>
+<li>解密器（Decryptor）</li>
+<li>神经元增强（Neuron Reinforced）</li>
+<li>增强器 MAX（Enhancer MAX）</li>
+<li>无损压缩器 MAX（Lossless Compressor Max）</li>
+<li>复制器（Duplicator）</li>
+<li>拆解器（Scrapper）</li>
+<li>反编译器（Decompiler）</li>
+<li>拼接器（Splicer）</li>
+<li>AI 训练器（AI Trainer）</li>
+<li>蒸馏器（Distillator）</li>
+<li>AI 生成器（AI Generator）</li>
+<li>压印器（Imprinter）</li>
+<li>压缩器（Compressor）</li>
+</ul>
+<hr>
+<h2>终局：工厂蓝图</h2>
+<h3>进口蓝图</h3>
+<h4>进口路由器、CPU、GPU</h4>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/129270839463a073382867b4df6ccc1ea961301db3933133c010122b04cf77a8/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373430353938373238333135363230343237322f423642454441423842443241364339323235464234394244363831303137333843433731334639442f"><img src="https://camo.githubusercontent.com/129270839463a073382867b4df6ccc1ea961301db3933133c010122b04cf77a8/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31373430353938373238333135363230343237322f423642454441423842443241364339323235464234394244363831303137333843433731334639442f" alt="进口布局" data-canonical-src="https://images.steamusercontent.com/ugc/17405987283156204272/B6BEDAB8BD2A6C9225FB49BD68101738CC713F9D/" style="max-width: 100%;"></a></p>
+<h4>进口量子处理器蓝图</h4>
+<p>蓝图：<a href="https://pastebin.com/3PVQQrqB" rel="nofollow">https://pastebin.com/3PVQQrqB</a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b78665c05d138c5343b3348337d771a71b22de484d7b3c8195d24442c6eb64aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303234343134383733343339323536343131392f394242373641373635424139453131354544303935383041393042463938363742423943363535302f"><img src="https://camo.githubusercontent.com/b78665c05d138c5343b3348337d771a71b22de484d7b3c8195d24442c6eb64aa/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31303234343134383733343339323536343131392f394242373641373635424139453131354544303935383041393042463938363742423943363535302f" alt="进口量子处理器" data-canonical-src="https://images.steamusercontent.com/ugc/10244148734392564119/9BB76A765BA9E115ED09580A90BF9867BB9C6550/" style="max-width: 100%;"></a></p>
+<p><strong>节点列表：</strong></p>
+<ul>
+<li>2 个分配器（Splitter）用于金钱，20:12:10 分割（计算如下）</li>
+<li>晶圆进口器（Wafer Importer）</li>
+<li>铌进口器（Niobium Importer）</li>
+<li>金进口器（Gold Importer）</li>
+<li>8x 超导铸造厂（Superconduction Foundry）</li>
+<li>2 个容器（Container）收集并 2:1 分割</li>
+<li>4x 电子束光刻机（Electron-Beam Lithographer）</li>
+<li>容器（Container）收集量子比特</li>
+</ul>
+<h3>进口量子处理器比率计算</h3>
+<p>电子束光刻机基础速度 = 3.52e12<br>
+超导铸造厂基础速度 = 1.76e12</p>
+<p>3.52e12 / 1.76e12 = 2</p>
+<p>超导铸造厂（Superconduction Foundry）只能为光刻机（Lithographer）提供一半满产能，所以每台光刻机需要 2 台。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f61736f28020647397c3429c277d61aaa6ee4b768d78d8af42f7c03af09344a7/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383030323230393936353437313431333132322f394634324641304346413633343232393843333039443737383746313543333745364630363038422f"><img src="https://camo.githubusercontent.com/f61736f28020647397c3429c277d61aaa6ee4b768d78d8af42f7c03af09344a7/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383030323230393936353437313431333132322f394634324641304346413633343232393843333039443737383746313543333745364630363038422f" alt="比率计算" data-canonical-src="https://images.steamusercontent.com/ugc/18002209965471413122/9F42FA0CFA6342298C309D7787F15C37E6F0608B/" style="max-width: 100%;"></a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>进口器</th>
+<th>每单位需求</th>
+<th>单价</th>
+<th>总价</th>
+<th>简化比率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>晶圆</td>
+<td>1</td>
+<td>2.00E35</td>
+<td>2.00E35</td>
+<td>20</td>
+</tr>
+<tr>
+<td>铌</td>
+<td>12</td>
+<td>1.00E34</td>
+<td>1.20E35</td>
+<td>12</td>
+</tr>
+<tr>
+<td>金</td>
+<td>2</td>
+<td>5.00E34</td>
+<td>1.00E35</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td>—</td>
+<td><strong>4.20E35</strong></td>
+<td>—</td>
+<td><strong>42</strong></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3>自给自足工厂</h3>
+<p><strong>当电力被利用时，自给自足工厂很重要。电力增强机器节点，在进口系统中，最大瓶颈将是收入。SS 工厂不会有这种瓶颈。</strong></p>
+<p>蓝图：<a href="https://pastebin.com/hBq09bAz" rel="nofollow">https://pastebin.com/hBq09bAz</a></p>
+<p><strong>目标：</strong></p>
+<ul>
+<li>4 个路由器 * 1.76e12</li>
+<li>4 个 CPU * 1.76e12</li>
+<li>4 个 GPU * 1.76e12</li>
+<li>6 个量子比特 * 1.76e12</li>
+</ul>
+<p><strong>节点列表：</strong></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>数量</th>
+<th>输出</th>
+<th>盈余</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>路由器装配器 (Router Assembler)</td>
+<td>4</td>
+<td>路由器</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>CPU 装配器 (CPU Assembler)</td>
+<td>4</td>
+<td>CPU</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>GPU 装配器 (GPU Assembler)</td>
+<td>4</td>
+<td>GPU</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>电子束光刻机 (Electron-Beam Lithographer)</td>
+<td>3</td>
+<td>量子比特</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>PCB 焊接器 (PCB Solder)</td>
+<td>4</td>
+<td>PCB</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>晶圆切割器 (Wafer Cutter)</td>
+<td>3</td>
+<td>晶体管</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>超导铸造厂 (Superconduction Foundry)</td>
+<td>6</td>
+<td>超级晶圆</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>金矿机 (Gold Miner)</td>
+<td>6</td>
+<td>金</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>聚合器 (Polymerizer)</td>
+<td>2</td>
+<td>塑料</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>线材轧机 (Wire Mill)</td>
+<td>2</td>
+<td>线材</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>晶圆合成器 (Wafer Synthesizer)</td>
+<td>6</td>
+<td>晶圆</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>铌矿机 (Niobium Miner)</td>
+<td>1</td>
+<td>铌</td>
+<td>25.00%</td>
+</tr>
+<tr>
+<td>石油精炼器 (Oil Refiner)</td>
+<td>1</td>
+<td>精炼石油</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>金属冲压机 (Metal Press)</td>
+<td>1</td>
+<td>铜板</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>硅净化器 (Silicon Purifier)</td>
+<td>4</td>
+<td>纯化硅</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>挖掘机 (Excavator)</td>
+<td>1</td>
+<td>沙</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>石油泵 (Oil Pump)</td>
+<td>1</td>
+<td>原油</td>
+<td>50.00%</td>
+</tr>
+<tr>
+<td>铜矿机 (Copper Mine)</td>
+<td>1</td>
+<td>铜</td>
+<td>33.33%</td>
+</tr>
+<tr>
+<td>硅矿机 (Silicon Miner)</td>
+<td>3</td>
+<td>硅</td>
+<td>75%</td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td><strong>57</strong></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3>替代 242 台机器零浪费工厂</h3>
+<p><strong>目标：</strong></p>
+<ul>
+<li>16 个路由器 * 1.76e12</li>
+<li>16 个 CPU * 1.76e12</li>
+<li>32 个 GPU * 1.76e12</li>
+<li>16 个量子比特 * 1.76e12</li>
+</ul>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>节点</th>
+<th>数量</th>
+<th>输出</th>
+<th>盈余</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>路由器装配器 (Router Assembler)</td>
+<td>16</td>
+<td>路由器</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>CPU 装配器 (CPU Assembler)</td>
+<td>16</td>
+<td>CPU</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>GPU 装配器 (GPU Assembler)</td>
+<td>32</td>
+<td>GPU</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>电子束光刻机 (Electron-Beam Lithographer)</td>
+<td>8</td>
+<td>量子比特</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>PCB 焊接器 (PCB Solder)</td>
+<td>24</td>
+<td>PCB</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>晶圆切割器 (Wafer Cutter)</td>
+<td>16</td>
+<td>晶体管</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>超导铸造厂 (Superconduction Foundry)</td>
+<td>16</td>
+<td>超级晶圆</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>金矿机 (Gold Miner)</td>
+<td>16</td>
+<td>金</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>聚合器 (Polymerizer)</td>
+<td>12</td>
+<td>塑料</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>线材轧机 (Wire Mill)</td>
+<td>12</td>
+<td>线材</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>晶圆合成器 (Wafer Synthesizer)</td>
+<td>24</td>
+<td>晶圆</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>铌矿机 (Niobium Miner)</td>
+<td>2</td>
+<td>铌</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>石油精炼器 (Oil Refiner)</td>
+<td>6</td>
+<td>精炼石油</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>金属冲压机 (Metal Press)</td>
+<td>6</td>
+<td>铜板</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>硅净化器 (Silicon Purifier)</td>
+<td>16</td>
+<td>纯化硅</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>挖掘机 (Excavator)</td>
+<td>4</td>
+<td>沙</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>石油泵 (Oil Pump)</td>
+<td>3</td>
+<td>原油</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>铜矿机 (Copper Mine)</td>
+<td>4</td>
+<td>铜</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>硅矿机 (Silicon Miner)</td>
+<td>9</td>
+<td>硅</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td><strong>242</strong></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<hr>
+<h2>终局：电力蓝图</h2>
+<h3>布局与效率</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>布局</th>
+<th>空间</th>
+<th>瓦特</th>
+<th>瓦特/空间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SS 聚变反应堆</td>
+<td>77</td>
+<td>346W</td>
+<td>4.494</td>
+</tr>
+<tr>
+<td>SS 6x 低稳定性裂变</td>
+<td>120</td>
+<td>477W</td>
+<td>3.975</td>
+</tr>
+<tr>
+<td>7x 裂变</td>
+<td>120</td>
+<td>487W</td>
+<td>4.058</td>
+</tr>
+<tr>
+<td>SS 聚变 + 3x 裂变</td>
+<td>120</td>
+<td>509W</td>
+<td>4.2417</td>
+</tr>
+<tr>
+<td>聚变 + 3x 裂变</td>
+<td>120</td>
+<td>519W</td>
+<td>4.325</td>
+</tr>
+<tr>
+<td>2 聚变 + 高稳定性裂变</td>
+<td>120</td>
+<td>552W</td>
+<td>4.600</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3>聚变反应堆 16x 涡轮机 346W 77/120</h3>
+<p>蓝图：<a href="https://pastebin.com/z1A13MXr" rel="nofollow">https://pastebin.com/z1A13MXr</a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2dc84b2d216446b71ac34902b5acaef4ea59ef5e5317b0937dfa5cf72abe1b11/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313931373234353433373931363838323236302f353730373039423538453746354435353333303631373634353245353244343039464142464232462f"><img src="https://camo.githubusercontent.com/2dc84b2d216446b71ac34902b5acaef4ea59ef5e5317b0937dfa5cf72abe1b11/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31313931373234353433373931363838323236302f353730373039423538453746354435353333303631373634353245353244343039464142464232462f" alt="聚变反应堆" data-canonical-src="https://images.steamusercontent.com/ugc/11917245437916882260/570709B58E7F5D553306176452E52D409FABFB2F/" style="max-width: 100%;"></a></p>
+<p>有一个单独的水泵（Water Pump）用于 3:2 分割氚和氘。</p>
+<h3>聚变电力管理器</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3f995035f189dd1c942753f57eb9e585ca64248def38631690f59797ec7d96f9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393939363838313932333236353930313635382f353032374238454646303544444235443043323134394343313031423734323744353046323743452f"><img src="https://camo.githubusercontent.com/3f995035f189dd1c942753f57eb9e585ca64248def38631690f59797ec7d96f9/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f393939363838313932333236353930313635382f353032374238454646303544444235443043323134394343313031423734323744353046323743452f" alt="聚变电力管理器" data-canonical-src="https://images.steamusercontent.com/ugc/9996881923265901658/5027B8EFF05DDB5D0C2149CC101B7427D50F27CE/" style="max-width: 100%;"></a></p>
+<p>聚变反应堆（Fusion Reactor）很耗能，需要 54W 来维持运行。聚变 100% 输出恰好为 16 台涡轮机（Turbine）供电，所以使用单独的自给自足电力管理器（低稳定性裂变（Low Stability Fission））来生成所需电力，余量与聚变输出合并。</p>
+<h3>聚变氚</h3>
+<p>目标：1L/s</p>
+<ul>
+<li>5 个电动水泵（Electric Pump） + 从单独水泵分割</li>
+<li>2 个蒸发罐（Evaporation Tank）（各 7L/s 水）</li>
+<li>8 个中子激活器（Neutron Activator）</li>
+</ul>
+<h3>聚变氘</h3>
+<p>目标：1L/s</p>
+<ul>
+<li>2 个电动水泵（Electric Pump） + 从单独水泵分割</li>
+<li>8 个水过滤器（Water Filter）</li>
+<li>8 个电解槽（Electrolyzer）（显示 0.13，实际为 0.125）</li>
+</ul>
+<h3>聚变主反应堆</h3>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/33a77329143f473e23bf9d51b6847cea801201bacf7a0a30a8ac0dba9251826d/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323532373538343434303532393638353833392f433036454236303246384639464334324337383042394234343946454532443635353837393743372f"><img src="https://camo.githubusercontent.com/33a77329143f473e23bf9d51b6847cea801201bacf7a0a30a8ac0dba9251826d/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31323532373538343434303532393638353833392f433036454236303246384639464334324337383042394234343946454532443635353837393743372f" alt="聚变主反应堆" data-canonical-src="https://images.steamusercontent.com/ugc/12527584440529685839/C06EB602F8F9FC42C780B9B449FEE2D6558797C7/" style="max-width: 100%;"></a></p>
+<h3>6 裂变反应堆 24x 涡轮机 477W 120/120</h3>
+<p>蓝图：<a href="https://pastebin.com/b187YJfC" rel="nofollow">https://pastebin.com/b187YJfC</a></p>
+<p>3 台风力涡轮机（Wind Turbine）全部连接以均匀启动所有裂变反应堆（Fission Reactor），一旦裂变反应堆工作，1 台涡轮机（Turbine）输出路由回水源以实现 100% 运行时间，余量电力反馈到增强器（Empowerer）。</p>
+<p>低稳定性裂变反应堆，6x 扩展。</p>
+<h3>7 裂变反应堆 25x 涡轮机 487W 120/120</h3>
+<p>蓝图：<a href="https://pastebin.com/YfdG9DtF" rel="nofollow">https://pastebin.com/YfdG9DtF</a></p>
+<p>减去连接的 3 台风力涡轮机（Wind Turbine），需要前一个来启动，然后用 1 个高稳定性反应堆（High Stability Fission Reactor）替换风力以额外获得 10W。</p>
+<h3>1 聚变 + 3 低稳定性裂变 28x 涡轮机 509W (120/120)</h3>
+<p>蓝图：<a href="https://pastebin.com/fTJfaVnp" rel="nofollow">https://pastebin.com/fTJfaVnp</a></p>
+<p>本质上是聚变（Fusion）布局加在顶部，再加 2 个低稳定性裂变（Low Stability Fission）。理论上你可以从这个布局中挤出更多电力，有 2 台风力涡轮机（Wind Turbine）+2 台发电机（Dynamo）来启动裂变反应堆（Fission Reactor），额外 1 台风力涡轮机 + 发电机和太阳能（Solar）来填补最后 3 个空间。总共 7 个低效率空间使用，足以进行高稳定性裂变（High Stability Fission），但不会是自启动布局。但会净赚 +10W 总计 519W。</p>
+<h3>2 聚变 + 1 高稳定性裂变 552W 120/120</h3>
+<p>蓝图：<a href="https://pastebin.com/fPZrNdpX" rel="nofollow">https://pastebin.com/fPZrNdpX</a></p>
+<p>使用方法：在第一个聚变反应堆（Fusion Reactor）建立 1 个氘和 1 个氚之前，关闭或降低注入率到（16.00 或 8.00），然后将注入率恢复到 1.00。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1769d19570c1b99169db96714a022371e4dbb70915ea4f263ebf9c7e04a543ee/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383332313230313834373735353234323139342f453344333946383846363642434343433035464534393831453336334345383941343333373339452f"><img src="https://camo.githubusercontent.com/1769d19570c1b99169db96714a022371e4dbb70915ea4f263ebf9c7e04a543ee/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31383332313230313834373735353234323139342f453344333946383846363642434343433035464534393831453336334345383941343333373339452f" alt="2 聚变布局" data-canonical-src="https://images.steamusercontent.com/ugc/18321201847755242194/E3D39F88F66BCCCC05FE4981E363CE89A433739E/" style="max-width: 100%;"></a></p>
+<hr>
+<h2>终局：一体式蓝图</h2>
+<p><strong>警告：蓝图接近节点上限</strong></p>
+<p>包含：</p>
+<ul>
+<li>完整收入布局 + 路由器/CPU/GPU 进口器</li>
+<li>研究布局</li>
+<li>SS 工厂布局</li>
+<li>SS 电力布局</li>
+<li>完整代码布局</li>
+<li>黑客布局</li>
+</ul>
+<h3>484/500 509W</h3>
+<p>蓝图：<a href="https://pastebin.com/U3fCFxVV" rel="nofollow">https://pastebin.com/U3fCFxVV</a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1e39be2ab268857630c6e5380b2622412e6b65701710d844e631cf520d50dbe3/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353236373339393334393432333634363833302f343639394242364532353341323635384446424438314333333834304144423430303436314132432f"><img src="https://camo.githubusercontent.com/1e39be2ab268857630c6e5380b2622412e6b65701710d844e631cf520d50dbe3/68747470733a2f2f696d616765732e737465616d75736572636f6e74656e742e636f6d2f7567632f31353236373339393334393432333634363833302f343639394242364532353341323635384446424438314333333834304144423430303436314132432f" alt="一体式布局" data-canonical-src="https://images.steamusercontent.com/ugc/15267399349423646830/4699BB6E253A2658DFBD81C33840ADB400461A2C/" style="max-width: 100%;"></a></p>
+<hr>
+<blockquote>
+<p>本攻略由 GODZILLA 创作，翻译仅供参考。建议配合原版英文攻略使用。</p>
+</blockquote></div>
+<div style="font-size:small;margin-top:8px;float:right;">本站内容除特别声明外，均遵循 CC BY-NC-SA 4.0 协议</div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://1837634311.github.io">Semibyte 的小站</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if("10/25/2025"!=""){
+    var startSite=new Date("10/25/2025");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","1837634311/1837634311.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+
+
+</html>
