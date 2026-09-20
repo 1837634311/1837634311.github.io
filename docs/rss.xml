@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Fri, 17 Jul 2026 12:10:06 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>临时文件</title><link>https://1837634311.github.io/post/lin-shi-wen-jian.html</link><description># Typst 学生模板设计指南
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Semibyte 的小站</title><link>https://1837634311.github.io</link><description>写点文字能够活跃人的思维，帮助自己更好地了解自我，所以在此记录</description><copyright>Semibyte 的小站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/1837634311/1837634311.github.io/refs/heads/main/static/avatar.jpg</url><title>avatar</title><link>https://1837634311.github.io</link></image><lastBuildDate>Sun, 20 Sep 2026 15:18:11 +0000</lastBuildDate><managingEditor>Semibyte 的小站</managingEditor><ttl>60</ttl><webMaster>Semibyte 的小站</webMaster><item><title>计算机网络面经</title><link>https://1837634311.github.io/post/ji-suan-ji-wang-luo-mian-jing.html</link><description># 计算机网络知识体系
+
+---
+
+## 一、 计算机网络体系结构
+
+### 1. OSI 七层模型
+* **应用层**：最靠近用户的层，负责处理特定的应用程序细节。</description><guid isPermaLink="true">https://1837634311.github.io/post/ji-suan-ji-wang-luo-mian-jing.html</guid><pubDate>Sun, 20 Sep 2026 15:15:02 +0000</pubDate></item><item><title>临时文件</title><link>https://1837634311.github.io/post/lin-shi-wen-jian.html</link><description># Typst 学生模板设计指南
 
 &gt; 每个功能的实现方法与参数详解。</description><guid isPermaLink="true">https://1837634311.github.io/post/lin-shi-wen-jian.html</guid><pubDate>Fri, 17 Jul 2026 12:09:37 +0000</pubDate></item><item><title>《铁路工程地质学》课后思考题</title><link>https://1837634311.github.io/post/%E3%80%8A-tie-lu-gong-cheng-di-zhi-xue-%E3%80%8B-ke-hou-si-kao-ti.html</link><description>## 第一章 地应力
 
